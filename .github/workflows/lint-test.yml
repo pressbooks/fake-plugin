@@ -7,6 +7,6 @@ on:
 jobs:
   trigger_bedrock_updates:
     if: github.ref == 'refs/heads/dev'
-    uses: actions/composer-autoupdate-bedrock@v1.1
+    uses: pressbooks/composer-autoupdate-bedrock@v1.1
     with:
       triggered-by: ${{ github.repository }}
