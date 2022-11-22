@@ -1,0 +1,13 @@
+name: Run Standards & Tests
+
+on:
+  push:
+    branches: [ dev, main ]
+
+jobs:
+  trigger_bedrock_updates:
+    if: github.ref == 'refs/heads/dev'
+    runs-on: ubuntu-latest
+    steps:
+      uses: pressbooks/composer-autoupdate-bedrock/.github/workflows/trigger-update.yml@main
+      secrets: inherit

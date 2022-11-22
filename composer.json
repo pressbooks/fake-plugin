@@ -1,0 +1,17 @@
+{
+    "name": "pressbooks/fake-plugin",
+    "description": "Fake plugin",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Pressbooks\\FakePlugin\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "arzola",
+            "email": "oscararzola@gmail.com"
+        }
+    ],
+    "require": {}
+}
