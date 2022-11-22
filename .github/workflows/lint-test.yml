@@ -6,8 +6,7 @@ on:
 
 jobs:
   trigger_bedrock_updates:
-    runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/dev'
     steps:
+      if: github.ref == 'refs/heads/dev'
       uses: pressbooks/composer-autoupdate-bedrock/.github/workflows/trigger-update.yml@main
       secrets: inherit
