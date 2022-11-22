@@ -6,7 +6,6 @@ on:
 
 jobs:
   trigger_bedrock_updates:
-    steps:
-      if: github.ref == 'refs/heads/dev'
-      uses: pressbooks/composer-autoupdate-bedrock/.github/workflows/trigger-update.yml@main
-      secrets: inherit
+    if: github.ref == 'refs/heads/dev'
+    uses: pressbooks/composer-autoupdate-bedrock/.github/workflows/trigger-update.yml@main
+    secrets: inherit
