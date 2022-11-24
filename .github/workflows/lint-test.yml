@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Trigger Bedrock Updates
-        uses: pressbooks/composer-autoupdate-bedrock@v1.6
+        uses: pressbooks/composer-autoupdate-bedrock@v1.7
         with:
           triggered-by: ${{ github.repository }}
           token: ${{ secrets.TEST_PAT }}
