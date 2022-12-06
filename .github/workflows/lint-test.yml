@@ -13,4 +13,4 @@ jobs:
         uses: pressbooks/composer-autoupdate-bedrock@v1.0
         with:
           triggered-by: ${{ github.repository }}
-          token: ${{ secrets.TEST_PAT }}
+          token: ${{ secrets.PAT_FOR_GITHUB_ACTIONS }}
