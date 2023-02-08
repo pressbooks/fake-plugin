@@ -4,6 +4,6 @@ namespace Pressbooks\FakePlugin;
 
 class App {
     public function __construct() {
-        echo 'Trigger latest version of FakePlugin';
+        echo 'Trigger latest version of FakePlugin App';
     }
 }
