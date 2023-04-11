@@ -14,4 +14,4 @@ jobs:
         with:
           triggered-by: ${{ github.repository }}
           token: ${{ secrets.PAT_COMPOSER_UPDATE }}
-          branch: ${GITHUB_REF#refs/heads/}
+          branch: ${{ github.ref }}
