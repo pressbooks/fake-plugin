@@ -2,7 +2,7 @@ name: Run Standards & Tests
 
 on:
   push:
-    branches: [ dev, main ]
+    branches: [ dev, production ]
 
 jobs:
   trigger_bedrock_updates:
