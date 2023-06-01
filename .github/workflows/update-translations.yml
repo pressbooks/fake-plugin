@@ -15,8 +15,6 @@ jobs:
           TRANSIFEX_PASSWORD: ${{ secrets.TRANSIFEX_API_TOKEN }}
         run: |
           curl -o- https://raw.githubusercontent.com/transifex/cli/master/install.sh | bash
-          echo $'[https://app.transifex.com]\nhostname = https://app.transifex.com\napi_hostname = https://api.transifex.com\nrest_hostname = https://rest.api.transifex.com\nusername = '"$TRANSIFEX_USER"$'\ntoken = '"$TRANSIFEX_PASSWORD"$'\n\npassword = '"$TRANSIFEX_PASSWORD"$'\n' > .transifexrc
-          cat .transifexrc
       - name: Pull translations from Transifex
         env:
           TX_TOKEN: ${{ secrets.TRANSIFEX_API_TOKEN }}
