@@ -12,10 +12,11 @@ jobs:
       - name: Install Transifex Client
         run: |
           curl -o- https://raw.githubusercontent.com/transifex/cli/master/install.sh | bash
+          source /home/runner/.bashrc
       - name: Pull translations from Transifex
         env:
           TX_TOKEN: ${{ secrets.TRANSIFEX_API_TOKEN }}
-        run: ./tx pull --all --force --minimum-perc=25
+        run: tx pull --all --force --minimum-perc=25
       - name: Setup PHP with tools
         uses: shivammathur/setup-php@v2
         with:
