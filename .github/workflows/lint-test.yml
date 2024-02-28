@@ -9,6 +9,10 @@ jobs:
     if: github.ref == 'refs/heads/dev' || github.ref == 'refs/heads/production'
     runs-on: ubuntu-latest
     steps:
+      - name: Set up Node.js 18
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
       - name: Trigger Bedrock Updates
         uses: pressbooks/composer-autoupdate-bedrock@fix/update-bedrock-based-work-organization-repo-api
         with:
