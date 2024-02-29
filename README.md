@@ -1,2 +1,2 @@
 # fake-plugin
-Hello world trigger 🚀 !
+Hello world trigger 🚀 ! seems nice
