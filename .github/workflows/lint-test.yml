@@ -2,20 +2,27 @@ name: Run Standards & Tests
 
 on:
   push:
-    branches: [ dev, production ]
+    branches: [ dev, production]
 
 jobs:
   trigger_bedrock_updates:
     if: github.ref == 'refs/heads/dev' || github.ref == 'refs/heads/production'
     runs-on: ubuntu-latest
     steps:
-      - name: Set up Node.js 18
-        uses: actions/setup-node@v3
+      - name: Assign secret based on branch
+        run: |
+          if [[ "${{ github.ref }}" == "refs/heads/dev" ]]; then
+            echo "AWS_SNS_TOPIC_ARN=${{ env.AWS_SNS_TOPIC_ARN_DEV }}" >> $GITHUB_ENV
+          elif [[ "${{ github.ref }}" == "refs/heads/production" ]]; then
+            echo "AWS_SNS_TOPIC_ARN=${{ env.AWS_SNS_TOPIC_ARN_PROD }}" >> $GITHUB_ENV
+          fi
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
         with:
-          node-version: '18'
-      - name: Trigger Bedrock Updates
-        uses: pressbooks/composer-autoupdate-bedrock@fix/update-bedrock-based-work-organization-repo-api
-        with:
-          triggered-by: ${{ github.repository }}
-          token: ${{ secrets.PAT_COMPOSER_UPDATE }}
-          branch: ${{ github.ref }}
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: Send message to SNS topic
+        run: |
+          aws sns publish --topic-arn ${{ env.AWS_SNS_TOPIC_ARN }} --message ${{ github.repository }}
