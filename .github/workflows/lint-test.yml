@@ -25,4 +25,4 @@ jobs:
 
       - name: Send message to SNS topic
         run: |
-          aws sns publish --topic-arn ${{ env.AWS_SNS_TOPIC_ARN }} --message ${{ github.repository }}
+          aws sns publish --topic-arn ${{ env.AWS_SNS_TOPIC_ARN_DEV }} --message ${{ github.repository }}
