@@ -25,4 +25,4 @@ jobs:
 
       - name: Send message to SNS topic
         run: |
-          aws sns publish --topic-arn "arn:aws:sns:ca-central-1:525254634044:pb-github-action-repository-update.fifo" --message-group-id "github-repo-update" --message ${{ github.repository }} 
+          aws sns publish --topic-arn "arn:aws:sns:ca-central-1:525254634044:GithubRepoUpdates.fifo" --message-group-id "github-repo-update" --message ${{ github.repository }} 
