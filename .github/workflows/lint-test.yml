@@ -2,27 +2,24 @@ name: Run Standards & Tests
 
 on:
   push:
-    branches: [ dev, production]
+    branches: [ dev, production ]
 
 jobs:
   trigger_bedrock_updates:
     if: github.ref == 'refs/heads/dev' || github.ref == 'refs/heads/production'
     runs-on: ubuntu-latest
     steps:
-      - name: Assign secret based on branch
-        run: |
-          if [[ "${{ github.ref }}" == "refs/heads/dev" ]]; then
-            echo "AWS_SNS_TOPIC_ARN=${{ env.AWS_SNS_TOPIC_ARN_DEV }}" >> $GITHUB_ENV
-          elif [[ "${{ github.ref }}" == "refs/heads/production" ]]; then
-            echo "AWS_SNS_TOPIC_ARN=${{ env.AWS_SNS_TOPIC_ARN_PROD }}" >> $GITHUB_ENV
-          fi
-      - name: Configure AWS credentials
-        uses: aws-actions/configure-aws-credentials@v1
+      - name: Set up Node.js 18
+        uses: actions/setup-node@v3
         with:
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws-region: "ca-central-1"
-
-      - name: Send message to SNS topic
-        run: |
-          aws sns publish --topic-arn "arn:aws:sns:ca-central-1:525254634044:GithubRepoUpdates.fifo" --message-group-id "github-repo-update" --message ${{ github.repository }} 
+          node-version: '18'
+      - name: Trigger Bedrock Updates
+        uses: pressbooks/composer-autoupdate-bedrock@chore/update-bedrocks-with-aws-queue-and-lambda-function
+        with:
+          triggered-by: ${{ github.repository }}
+          branch: ${{ github.ref }}
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_SQS_ARN_DEV: ${{ secrets.AWS_SQS_ARN_DEV }}
+          AWS_SQS_ARN_PROD: ${{ secrets.AWS_SQS_ARN_PROD }}
