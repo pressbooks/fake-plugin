@@ -20,3 +20,5 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_SQS_ARN_DEV: ${{ secrets.AWS_SQS_ARN_DEV }}
           AWS_SQS_ARN_PROD: ${{ secrets.AWS_SQS_ARN_PROD }}
+          INPUT_TRIGGERED_BY: ${{ github.repository }}
+          INPUT_BRANCH: ${{ github.ref }}
