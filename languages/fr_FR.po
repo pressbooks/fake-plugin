@@ -44,4 +44,4 @@ msgstr "Pressbooks (Book Oven Inc.)"
 
 #: src/App.php:7
 msgid "Hello, world!"
-msgstr ""
+msgstr "Bonjour le monde!"
