@@ -38,7 +38,7 @@ msgstr "Plugin para pruebas"
 #. Author of the plugin
 #: fake-plugin.php
 msgid "Pressbooks (Book Oven Inc.)"
-msgstr ""
+msgstr "Pressbooks (El horno de libros)"
 
 #: src/App.php:7
 msgid "Hello, world!"
