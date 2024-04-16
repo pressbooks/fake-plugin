@@ -33,7 +33,7 @@ msgstr ""
 #. Description of the plugin
 #: fake-plugin.php
 msgid "Plugin for testing purposes."
-msgstr ""
+msgstr "Plugin para pruebas"
 
 #. Author of the plugin
 #: fake-plugin.php
