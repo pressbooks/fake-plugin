@@ -29,9 +29,7 @@ msgstr "Faux plugin"
 #. Author URI of the plugin
 #: fake-plugin.php
 msgid "https://pressbooks.org"
-msgstr ""
-"https://pressbooks.org\n"
-" "
+msgstr "https://pressbooks.org"
 
 #. Description of the plugin
 #: fake-plugin.php
