@@ -1,0 +1,11 @@
+{
+  "name": "fake-plugin",
+  "version": "1.0.0",
+  "description": "Hello world trigger 🚀 !! seems nice",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo \"Build: ok\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
