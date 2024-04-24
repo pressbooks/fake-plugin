@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.5](https://github.com/pressbooks/fake-plugin/compare/1.0.4...1.0.5) (2024-04-24)
+
+
+### Bug Fixes
+
+* exit build command ([afef051](https://github.com/pressbooks/fake-plugin/commit/afef05146219e990641a4f2a4178f30482ed2415))
+
 ## [1.0.4](https://github.com/pressbooks/fake-plugin/compare/1.0.3...1.0.4) (2024-04-24)
 
 
