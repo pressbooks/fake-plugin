@@ -6,7 +6,6 @@
     ".": {
       "extra-files": [
         "fake-plugin.php",
-        "README.md",
         "src/compatibility.php"
       ]
     }
