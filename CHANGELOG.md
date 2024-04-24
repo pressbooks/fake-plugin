@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.7](https://github.com/pressbooks/fake-plugin/compare/1.0.6...1.0.7) (2024-04-24)
+
+
+### Bug Fixes
+
+* gh action env ([806fa71](https://github.com/pressbooks/fake-plugin/commit/806fa713cf30cf5552cd81edb55f8df633adb4e7))
+
 ## [1.0.6](https://github.com/pressbooks/fake-plugin/compare/1.0.5...1.0.6) (2024-04-24)
 
 
