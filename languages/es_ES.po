@@ -1,0 +1,46 @@
+# Copyright (C) 2024 Pressbooks (Book Oven Inc.)
+# This file is distributed under the GPL v3 or later.
+# Translators:
+# Oscar Arzola, 2024
+# Felipe Dalcin, 2024
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Fake Plugin 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/fake-plugin\n"
+"POT-Creation-Date: 2024-04-16T21:48:18+00:00\n"
+"PO-Revision-Date: 2024-04-16 22:27+0000\n"
+"Last-Translator: Felipe Dalcin, 2024\n"
+"Language-Team: Spanish (https://app.transifex.com/pressbooks/teams/9194/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"X-Domain: pressbooks-fake-plugin\n"
+"X-Generator: WP-CLI 2.10.0\n"
+
+#. Plugin Name of the plugin
+#: fake-plugin.php
+msgid "Fake Plugin"
+msgstr "Falso plugin"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: fake-plugin.php
+msgid "https://pressbooks.org"
+msgstr "https://pressbooks.org"
+
+#. Description of the plugin
+#: fake-plugin.php
+msgid "Plugin for testing purposes."
+msgstr "Plugin para pruebas"
+
+#. Author of the plugin
+#: fake-plugin.php
+msgid "Pressbooks (Book Oven Inc.)"
+msgstr "Pressbooks (El horno de libros)"
+
+#: src/App.php:7
+msgid "Hello, world!"
+msgstr "Hola, mundo!"
