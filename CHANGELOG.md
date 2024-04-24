@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/pressbooks/fake-plugin/compare/1.0.2...1.0.3) (2024-04-24)
+
+
+### Bug Fixes
+
+* trigger release after created ([#38](https://github.com/pressbooks/fake-plugin/issues/38)) ([927d192](https://github.com/pressbooks/fake-plugin/commit/927d192394271345700c1bd26393acabaccc92a4))
+
 ## [1.0.2](https://github.com/pressbooks/fake-plugin/compare/1.0.1...1.0.2) (2024-04-24)
 
 
