@@ -4,7 +4,7 @@
  * Plugin URI: https://pressbooks.org
  * Description: Plugin for testing purposes.
  * x-release-please-start-version
- * Version: 1.0.4
+ * Version: 1.0.5
  * x-release-please-end
  * Requires at least: 6.5.2
  * Requires PHP: 8.1
