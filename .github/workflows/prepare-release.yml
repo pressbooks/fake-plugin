@@ -9,4 +9,4 @@ jobs:
   deploy:
     uses: pressbooks/reusable-workflows/.github/workflows/prepare-release.yml@dev
     secrets:
-      github_token: ${{ secrets.GITHUB_TOKEN }}
+      ga_token: ${{ secrets.GITHUB_TOKEN }}
