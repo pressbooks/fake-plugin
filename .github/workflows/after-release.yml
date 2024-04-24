@@ -29,12 +29,14 @@ jobs:
         run: npm run build
 
       - name: Create Artifact
+        if: ${{ steps.release.outputs.release_created }}
         run: |
           export GITHUB_REPO_SLUG="$(basename ${{ github.workspace }})"
           export GITHUB_TAG="${{ github.ref_name }}"
           wp dist-archive $GITHUB_REPO_SLUG ${{ github.workspace }}/$GITHUB_REPO_SLUG-$GITHUB_TAG.zip
 
       - name: Upload Artifact to Release
+        if: ${{ steps.release.outputs.release_created }}
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
