@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/pressbooks/fake-plugin/compare/v1.0.0...1.0.1) (2024-04-24)
+
+
+### Bug Fixes
+
+* tag name without V prefix ([#34](https://github.com/pressbooks/fake-plugin/issues/34)) ([0dedeae](https://github.com/pressbooks/fake-plugin/commit/0dedeaea280de7c2a22dee92693ab57e42182287))
+
 ## 1.0.0 (2024-04-24)
 
 
