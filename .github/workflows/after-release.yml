@@ -1,0 +1,25 @@
+name: Integrate on Release ✨
+
+on:
+  release:
+    types: [ published ]
+
+jobs:
+  merge-dev-to-main:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Configuring git credentials
+        run: |
+          git config --global user.email "actions@github.com"
+          git config --global user.name "GitHub Actions"
+
+      - name: Merge dev into production
+        run: |
+          git checkout production
+          git merge --ff-only dev
+          git push origin production
