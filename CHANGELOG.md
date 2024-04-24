@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.1.0](https://github.com/pressbooks/fake-plugin/compare/1.0.7...1.1.0) (2024-04-24)
+
+
+### Features
+
+* use reusable workflow ([7b30cda](https://github.com/pressbooks/fake-plugin/commit/7b30cdabcaf358981c1d27eb02ebf4bcb6006c2e))
+
+
+### Bug Fixes
+
+* rename secrets parameter ([bd3520c](https://github.com/pressbooks/fake-plugin/commit/bd3520c4fd07cbd36a0252b141d8fafa8537bf63))
+* token secret scope ([dfb17d6](https://github.com/pressbooks/fake-plugin/commit/dfb17d6ac0c9bee83f545768dda6d9249329874b))
+* use secrets instead of input params ([2cea4c9](https://github.com/pressbooks/fake-plugin/commit/2cea4c961b26a531a7bec6d31b82d88d45896d55))
+
 ## [1.0.7](https://github.com/pressbooks/fake-plugin/compare/1.0.6...1.0.7) (2024-04-24)
 
 
