@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/pressbooks/fake-plugin/compare/1.1.0...1.2.0) (2024-04-24)
+
+
+### Features
+
+* integrate into production ([e89b9db](https://github.com/pressbooks/fake-plugin/commit/e89b9dbf73e85ff2f527308a2b40602b08cde56f))
+
 ## [1.1.0](https://github.com/pressbooks/fake-plugin/compare/1.0.7...1.1.0) (2024-04-24)
 
 
