@@ -1,0 +1,45 @@
+name: Append Artifact to Release
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  upload-artifact:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup Tools
+        run: |
+          sudo apt-get update && sudo apt-get install -y php-cli unzip
+          curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+          sudo apt-get install -y nodejs
+          curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
+          chmod +x wp-cli.phar
+          sudo mv wp-cli.phar /usr/local/bin/wp
+          wp package install wp-cli/dist-archive-command
+
+      - name: Install Dependencies
+        run: |
+          npm install
+          composer install --no-dev --optimize-autoloader
+
+      - name: Build Project
+        run: npm run build
+
+      - name: Create Artifact
+        run: |
+          export GITHUB_REPO_SLUG="$(basename ${{ github.workspace }})"
+          export GITHUB_TAG="${{ github.ref_name }}"
+          wp dist-archive $GITHUB_REPO_SLUG ${{ github.workspace }}/$GITHUB_REPO_SLUG-$GITHUB_TAG.zip
+
+      - name: Upload Artifact to Release
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ github.event.release.upload_url }}
+          asset_path: ./${{ github.workspace }}/${{ env.GITHUB_REPO_SLUG }}-${{ env.GITHUB_TAG }}.zip
+          asset_name: ${{ env.GITHUB_REPO_SLUG }}-${{ env.GITHUB_TAG }}.zip
+          asset_content_type: application/zip
