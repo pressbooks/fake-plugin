@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/pressbooks/fake-plugin/compare/1.0.1...1.0.2) (2024-04-24)
+
+
+### Bug Fixes
+
+* create workflow artifact ([#36](https://github.com/pressbooks/fake-plugin/issues/36)) ([159f709](https://github.com/pressbooks/fake-plugin/commit/159f709a79b92ea71eff475c061cffa53fca563f))
+
 ## [1.0.1](https://github.com/pressbooks/fake-plugin/compare/v1.0.0...1.0.1) (2024-04-24)
 
 
