@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.4](https://github.com/pressbooks/fake-plugin/compare/1.0.3...1.0.4) (2024-04-24)
+
+
+### Bug Fixes
+
+* release flow test ([#40](https://github.com/pressbooks/fake-plugin/issues/40)) ([5b95727](https://github.com/pressbooks/fake-plugin/commit/5b9572743c58226c8401076a984b4004ff6a5a4b))
+
 ## [1.0.3](https://github.com/pressbooks/fake-plugin/compare/1.0.2...1.0.3) (2024-04-24)
 
 
