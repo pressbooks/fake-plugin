@@ -1,0 +1,12 @@
+name: Prepare
+
+on:
+  push:
+    branches:
+      - dev
+
+jobs:
+  deploy:
+    uses: pressbooks/reusable-workflows/.github/workflows/prepare-release.yml@dev
+    with:
+      github_token: ${{ secrets.GITHUB_TOKEN }}
