@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.6](https://github.com/pressbooks/fake-plugin/compare/1.0.5...1.0.6) (2024-04-24)
+
+
+### Bug Fixes
+
+* tag filename ([cd6d93a](https://github.com/pressbooks/fake-plugin/commit/cd6d93a35d802c08c3f551fb28484dd9f7271c09))
+
 ## [1.0.5](https://github.com/pressbooks/fake-plugin/compare/1.0.4...1.0.5) (2024-04-24)
 
 
