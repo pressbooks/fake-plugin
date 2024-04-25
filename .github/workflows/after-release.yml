@@ -1,25 +1,9 @@
-name: Integrate on Release ✨
+name: Update production branch 🚨
 
-on:
-  release:
-    types: [ published ]
+on: workflow_call
 
 jobs:
-  merge-dev-to-main:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
-
-      - name: Configuring git credentials
-        run: |
-          git config --global user.email "actions@github.com"
-          git config --global user.name "GitHub Actions"
-
-      - name: Merge dev into production
-        run: |
-          git checkout production
-          git merge --ff-only dev
-          git push origin production
+  deploy:
+    uses: pressbooks/reusable-workflows/.github/workflows/after-release.yml@dev
+    secrets:
+      ga_token: ${{ secrets.GITHUB_TOKEN }}
