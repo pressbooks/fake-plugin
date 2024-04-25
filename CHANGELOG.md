@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/pressbooks/fake-plugin/compare/1.4.0...1.5.0) (2024-04-25)
+
+
+### Features
+
+* fancier getVersion ([#53](https://github.com/pressbooks/fake-plugin/issues/53)) ([2da7bba](https://github.com/pressbooks/fake-plugin/commit/2da7bba1a887a93a24c5375f52c1701c05f7e384))
+
 ## [1.4.0](https://github.com/pressbooks/fake-plugin/compare/1.3.0...1.4.0) (2024-04-25)
 
 
