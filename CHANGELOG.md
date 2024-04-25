@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.0](https://github.com/pressbooks/fake-plugin/compare/1.5.0...1.6.0) (2024-04-25)
+
+
+### Features
+
+* use org PAT to trigger chained workflows ([f124747](https://github.com/pressbooks/fake-plugin/commit/f124747592cbcba15b254b4a6b042aa36dcf12df))
+
 ## [1.5.0](https://github.com/pressbooks/fake-plugin/compare/1.4.0...1.5.0) (2024-04-25)
 
 
