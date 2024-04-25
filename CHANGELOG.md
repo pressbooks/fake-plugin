@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.4.0](https://github.com/pressbooks/fake-plugin/compare/1.3.0...1.4.0) (2024-04-25)
+
+
+### Features
+
+* New fancy getVersion function that will allow us to get something ([#52](https://github.com/pressbooks/fake-plugin/issues/52)) ([51a8f4e](https://github.com/pressbooks/fake-plugin/commit/51a8f4e5d4639434c6f7d562a7d7d11a862c093c))
+
+
+### Bug Fixes
+
+* typo on world ([#50](https://github.com/pressbooks/fake-plugin/issues/50)) ([f14f4bf](https://github.com/pressbooks/fake-plugin/commit/f14f4bfe340e331c69766ccd45af581b04629fee))
+
 ## [1.3.0](https://github.com/pressbooks/fake-plugin/compare/1.2.2...1.3.0) (2024-04-25)
 
 
