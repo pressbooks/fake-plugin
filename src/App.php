@@ -13,6 +13,7 @@ class App
     {
         return __('Hello, world!', 'pressbooks-fake-plugin');
     }
+
     public function getVersion()
     {
         // x-release-please-start-version

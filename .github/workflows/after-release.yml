@@ -8,4 +8,4 @@ jobs:
   deploy:
     uses: pressbooks/reusable-workflows/.github/workflows/after-release.yml@dev
     secrets:
-      ga_token: ${{ secrets.GITHUB_TOKEN }}
+      ga_token: ${{ secrets.PAT_FOR_GITHUB_ACTIONS }}
