@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.2](https://github.com/pressbooks/fake-plugin/compare/1.2.1...1.2.2) (2024-04-25)
+
+
+### Bug Fixes
+
+* integrate after release hook ([9429b39](https://github.com/pressbooks/fake-plugin/commit/9429b39e96cc78b195be2fac6d47da57391cd104))
+
 ## [1.2.1](https://github.com/pressbooks/fake-plugin/compare/1.2.0...1.2.1) (2024-04-25)
 
 
