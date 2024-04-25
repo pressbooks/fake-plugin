@@ -1,6 +1,8 @@
 name: Update production branch 🚨
 
-on: workflow_call
+on:
+  workflow_call:
+  workflow_dispatch:
 
 jobs:
   deploy:
