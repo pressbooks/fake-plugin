@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/pressbooks/fake-plugin/compare/1.2.2...1.3.0) (2024-04-25)
+
+
+### Features
+
+* new string function ([6bfd27f](https://github.com/pressbooks/fake-plugin/commit/6bfd27fa3ba5e07a5f15bd163283d3a7938bad18))
+
 ## [1.2.2](https://github.com/pressbooks/fake-plugin/compare/1.2.1...1.2.2) (2024-04-25)
 
 
