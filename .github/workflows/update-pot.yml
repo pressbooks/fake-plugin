@@ -22,7 +22,7 @@ jobs:
           php-version: '8.1'
           tools: composer, wp-cli/wp-cli-bundle
       - name: Update POT file
-        run: wp i18n make-pot . languages/fake-plugin.pot --domain=fake-plugin --slug=fake-plugin --package-name="Fake Plugin" --headers="{\"Report-Msgid-Bugs-To\":\"https://github.com/pressbooks/pressbooks/issues\"}"
+        run: wp i18n make-pot . languages/fake-plugin.pot --domain=pressbooks-fake-plugin --slug=fake-plugin --package-name="Fake Plugin" --headers="{\"Report-Msgid-Bugs-To\":\"https://github.com/pressbooks/pressbooks/issues\"}"
       - name: Create Pull Request for POT file
         id: cprpot
         uses: peter-evans/create-pull-request@v6
