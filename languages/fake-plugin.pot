@@ -2,14 +2,14 @@
 # This file is distributed under the GPL v3 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Fake Plugin 1.0.0\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/fake-plugin\n"
+"Project-Id-Version: Fake Plugin 1.6.0\n"
+"Report-Msgid-Bugs-To: https://github.com/pressbooks/pressbooks/issues\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-04-16T21:48:18+00:00\n"
+"POT-Creation-Date: 2024-05-06T23:38:21+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.10.0\n"
 "X-Domain: pressbooks-fake-plugin\n"
@@ -35,6 +35,14 @@ msgstr ""
 msgid "Pressbooks (Book Oven Inc.)"
 msgstr ""
 
-#: src/App.php:7
+#: src/App.php:9
+msgid "Hello, people!"
+msgstr ""
+
+#: src/App.php:14
 msgid "Hello, world!"
+msgstr ""
+
+#: src/App.php:19
+msgid "Hello, bye!"
 msgstr ""
