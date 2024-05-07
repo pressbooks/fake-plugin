@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.6.1](https://github.com/pressbooks/fake-plugin/compare/1.6.0...1.6.1) (2024-05-07)
+
+
+### Bug Fixes
+
+* automerge title ([71e46e9](https://github.com/pressbooks/fake-plugin/commit/71e46e95ec0191f85482731baba39eb33a2ba0ec))
+* dependabot actor ([c0496ce](https://github.com/pressbooks/fake-plugin/commit/c0496ce26a6e61c70696dde83ef98a18f930d06a))
+* dependabot and ci updates ([#56](https://github.com/pressbooks/fake-plugin/issues/56)) ([c764f91](https://github.com/pressbooks/fake-plugin/commit/c764f91d1666dd1a8a8d3c5e1571d0afe5ea24fc))
+* improved regex ([d6a8d40](https://github.com/pressbooks/fake-plugin/commit/d6a8d40a03e9c2c7bc9a1026cb52063ce70febd1))
+* Regular exp for testing ([c7ccf12](https://github.com/pressbooks/fake-plugin/commit/c7ccf128832e35457fa50a4b8a34ddc60b288215))
+
 ## [1.6.0](https://github.com/pressbooks/fake-plugin/compare/1.5.0...1.6.0) (2024-04-25)
 
 
