@@ -5,7 +5,7 @@ on:
 
 jobs:
   automerge:
-    if: github.actor == 'pressbooks-ops' || github.actor == 'transifex-integration' || github.actor == 'dependabot[bot]'
+    if: github.actor == 'pressbooks-ops' || github.actor == 'transifex-integration[bot]' || github.actor == 'dependabot[bot]'
     uses: pressbooks/composer-autoupdate-bedrock/.github/workflows/auto-merge.yml@main
     with:
       pr_title_pattern: '^(chore\((l10n|i18n)\):)'
