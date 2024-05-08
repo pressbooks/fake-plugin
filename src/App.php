@@ -23,7 +23,7 @@ class App
     public function getVersion()
     {
         // x-release-please-start-version
-        return '1.6.1';
+        return '1.7.0';
         // x-release-please-end
     }
 }
