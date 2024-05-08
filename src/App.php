@@ -21,7 +21,7 @@ class App
 
     public function bye()
     {
-        return __('Super bye!', 'pressbooks-fake-plugin');
+        return __('Super au revoir', 'pressbooks-fake-plugin');
     }
 
 
