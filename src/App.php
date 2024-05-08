@@ -19,6 +19,11 @@ class App
         return __('Hello, bye!', 'pressbooks-fake-plugin');
     }
 
+    public function bye()
+    {
+        return __('Super bye!', 'pressbooks-fake-plugin');
+    }
+
 
     public function getVersion()
     {
