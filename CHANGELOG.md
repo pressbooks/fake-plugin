@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.0](https://github.com/pressbooks/fake-plugin/compare/1.7.0...1.8.0) (2024-05-08)
+
+
+### Features
+
+* super bye function ([e41b962](https://github.com/pressbooks/fake-plugin/commit/e41b962071974b54d14f6a690e6629c5e65dc582))
+
 ## [1.7.0](https://github.com/pressbooks/fake-plugin/compare/1.6.1...1.7.0) (2024-05-08)
 
 
