@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.0](https://github.com/pressbooks/fake-plugin/compare/1.6.1...1.7.0) (2024-05-08)
+
+
+### Features
+
+* trigger staging releases ([#64](https://github.com/pressbooks/fake-plugin/issues/64)) ([77f4e7b](https://github.com/pressbooks/fake-plugin/commit/77f4e7b8445869a2d0b7c5b78114228d6c265ea6))
+
 ## [1.6.1](https://github.com/pressbooks/fake-plugin/compare/1.6.0...1.6.1) (2024-05-07)
 
 
