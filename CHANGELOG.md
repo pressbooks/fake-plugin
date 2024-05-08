@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.1](https://github.com/pressbooks/fake-plugin/compare/1.8.0...1.8.1) (2024-05-08)
+
+
+### Bug Fixes
+
+* french it up ([f3bab01](https://github.com/pressbooks/fake-plugin/commit/f3bab015255de3b5cfac4bf23f3e0ce2da603985))
+
 ## [1.8.0](https://github.com/pressbooks/fake-plugin/compare/1.7.0...1.8.0) (2024-05-08)
 
 
