@@ -1,10 +1,10 @@
-name: Automerge translations ✨
+name: Automerge ✨
 on:
   pull_request_target:
     types: [ opened ]
 
 jobs:
-  automerge:
+  translations:
     if: github.actor == 'pressbooks-ops' || github.actor == 'transifex-integration[bot]' || github.actor == 'dependabot[bot]'
     uses: pressbooks/reusable-workflows/.github/workflows/auto-merge.yml@test-tag-release
     with:
