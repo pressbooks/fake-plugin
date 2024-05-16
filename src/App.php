@@ -24,6 +24,11 @@ class App
         return __('Super au revoir', 'pressbooks-fake-plugin');
     }
 
+    public function salut()
+    {
+        return __('Salut!', 'pressbooks-fake-plugin');
+    }
+
 
     public function getVersion()
     {
