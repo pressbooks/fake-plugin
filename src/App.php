@@ -26,7 +26,7 @@ class App
 
     public function salut()
     {
-        return __('Salut! man', 'pressbooks-fake-plugin');
+        return __('Salut! garçon', 'pressbooks-fake-plugin');
     }
 
 
