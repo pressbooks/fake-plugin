@@ -24,7 +24,7 @@ class App
         return __('Super au revoir', 'pressbooks-fake-plugin');
     }
 
-    public function salut()
+    public function salutation()
     {
         return __('Salut! garçon', 'pressbooks-fake-plugin');
     }
