@@ -6,9 +6,9 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Fake Plugin 1.8.0\n"
-"Report-Msgid-Bugs-To: https://github.com/pressbooks/pressbooks/issues\n"
-"POT-Creation-Date: 2024-05-08T13:49:38+00:00\n"
+"Project-Id-Version: Pressbooks Fake Plugin 1.9.0\n"
+"Report-Msgid-Bugs-To: https://github.com/pressbooks/fake-plugin/issues\n"
+"POT-Creation-Date: 2024-05-16T19:24:10+00:00\n"
 "PO-Revision-Date: 2024-04-16 22:27+0000\n"
 "Last-Translator: Felipe Dalcin, 2024\n"
 "Language-Team: Spanish (https://app.transifex.com/pressbooks/teams/9194/es/)\n"
@@ -55,4 +55,8 @@ msgstr ""
 
 #: src/App.php:24
 msgid "Super au revoir"
+msgstr ""
+
+#: src/App.php:29
+msgid "Salut! garçon"
 msgstr ""
