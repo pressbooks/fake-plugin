@@ -12,6 +12,7 @@ on:
 jobs:
   run-tests:
     uses: pressbooks/reusable-workflows/.github/workflows/pb-plugin-tests.yml@test-tag-release
+    secrets: inherit
     with:
       requires_pressbooks: true
   trigger_bedrock_updates:
