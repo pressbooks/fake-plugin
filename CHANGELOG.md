@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.9.0](https://github.com/pressbooks/fake-plugin/compare/1.8.1...1.9.0) (2024-05-16)
+
+
+### Features
+
+* reusable tests workflow ([#76](https://github.com/pressbooks/fake-plugin/issues/76)) ([33db299](https://github.com/pressbooks/fake-plugin/commit/33db299de3e41ba53afa2b93732011819d83e5c4))
+
+
+### Bug Fixes
+
+* auto-merge.yml ([c382556](https://github.com/pressbooks/fake-plugin/commit/c382556b7f31917ed2cccb15ed9da18e345f3b59))
+* translation flow ([#78](https://github.com/pressbooks/fake-plugin/issues/78)) ([2d090e2](https://github.com/pressbooks/fake-plugin/commit/2d090e21306bdf8fdfd15f7afe8184a7fa5f3eb5))
+* trigger-bedrock-updates.yml ([1912e70](https://github.com/pressbooks/fake-plugin/commit/1912e70c8eb2c2531405d9e46f658d50611ec3b9))
+
 ## [1.8.1](https://github.com/pressbooks/fake-plugin/compare/1.8.0...1.8.1) (2024-05-08)
 
 

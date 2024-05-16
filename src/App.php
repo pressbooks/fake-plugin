@@ -28,7 +28,7 @@ class App
     public function getVersion()
     {
         // x-release-please-start-version
-        return '1.8.1';
+        return '1.9.0';
         // x-release-please-end
     }
 }
