@@ -1,4 +1,4 @@
-name: Update POT file
+name: Update .pot file
 
 on:
   push:
@@ -10,26 +10,10 @@ on:
   workflow_dispatch:
 
 jobs:
-  update-pot:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.PAT_FOR_GITHUB_ACTIONS }}
-      - name: Setup PHP with tools
-        uses: shivammathur/setup-php@v2
-        with:
-          php-version: '8.1'
-          tools: composer, wp-cli/wp-cli-bundle
-      - name: Update POT file
-        run: wp i18n make-pot . languages/fake-plugin.pot --domain=pressbooks-fake-plugin --slug=fake-plugin --package-name="Fake Plugin" --headers="{\"Report-Msgid-Bugs-To\":\"https://github.com/pressbooks/pressbooks/issues\"}"
-      - name: Create Pull Request for POT file
-        id: cprpot
-        uses: peter-evans/create-pull-request@v6
-        with:
-          token: ${{ secrets.PAT_FOR_GITHUB_ACTIONS }}
-          labels: automerge-pot
-          commit-message: 'chore(l10n): update pot file'
-          title: 'chore(l10n): update pot file'
-          body: 'Update the POT file for this plugin.'
-          branch: chore/update-pot-file
+  update-pot-file:
+    uses: pressbooks/reusable-workflows/.github/workflows/update-pot.yml@test-tag-release
+    with:
+      domain: 'pressbooks-fake-plugin'
+      slug: 'pressbooks-fake-plugin'
+      package_name: 'Pressbooks Fake Plugin'
+      headers: '{"Report-Msgid-Bugs-To": "https://github.com/pressbooks/fake-plugin/issues"}'
