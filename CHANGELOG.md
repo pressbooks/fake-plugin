@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.2](https://github.com/pressbooks/fake-plugin/compare/1.9.1...1.9.2) (2024-05-16)
+
+
+### Bug Fixes
+
+* test to trigger release ([#85](https://github.com/pressbooks/fake-plugin/issues/85)) ([112ab69](https://github.com/pressbooks/fake-plugin/commit/112ab6909f8c4fabaf57c6ba9228234da48d169e))
+
 ## [1.9.1](https://github.com/pressbooks/fake-plugin/compare/1.9.0...1.9.1) (2024-05-16)
 
 
