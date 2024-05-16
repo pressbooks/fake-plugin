@@ -10,13 +10,13 @@ on:
   workflow_dispatch:
 
 jobs:
-  run-tests:
+  plugin-tests:
     uses: pressbooks/reusable-workflows/.github/workflows/pb-plugin-tests.yml@test-tag-release
     secrets: inherit
     with:
       requires_pressbooks: true
   trigger_bedrock_updates:
-    needs: run-tests
+    needs: plugin-tests
     runs-on: ubuntu-latest
     steps:
       - name: Trigger Bedrock Updates
