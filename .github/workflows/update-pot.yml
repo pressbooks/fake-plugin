@@ -1,4 +1,4 @@
-name: Update .pot file
+name: Update .pot file 🌐
 
 on:
   pull_request:
