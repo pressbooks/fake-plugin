@@ -1,9 +1,8 @@
-name: Update .pot file
+name: Update .pot file 🌐
 
 on:
-  push:
-    branches:
-      - dev
+  pull_request:
+    branches: [ dev ]
     paths:
       - '**.php'
       - '**.js'
