@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.1](https://github.com/pressbooks/fake-plugin/compare/1.9.0...1.9.1) (2024-05-16)
+
+
+### Bug Fixes
+
+* salutation ([#82](https://github.com/pressbooks/fake-plugin/issues/82)) ([897e28c](https://github.com/pressbooks/fake-plugin/commit/897e28ce43412427846d512a7a160f36a682c6f1))
+
 ## [1.9.0](https://github.com/pressbooks/fake-plugin/compare/1.8.1...1.9.0) (2024-05-16)
 
 
