@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.9.5](https://github.com/pressbooks/fake-plugin/compare/1.9.4...1.9.5) (2024-05-21)
+
+
+### Bug Fixes
+
+* inherited secrets ([#95](https://github.com/pressbooks/fake-plugin/issues/95)) ([589ce38](https://github.com/pressbooks/fake-plugin/commit/589ce38e2b2ff09add75ae0371ec524b950b7a47))
+* invalid option ([5db6501](https://github.com/pressbooks/fake-plugin/commit/5db65014d97d25a135a78b583dafe8ea70dd037f))
+
 ## [1.9.4](https://github.com/pressbooks/fake-plugin/compare/1.9.3...1.9.4) (2024-05-21)
 
 
