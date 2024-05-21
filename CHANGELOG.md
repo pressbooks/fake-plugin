@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.9.4](https://github.com/pressbooks/fake-plugin/compare/1.9.3...1.9.4) (2024-05-21)
+
+
+### Bug Fixes
+
+* test bedrock update ([#91](https://github.com/pressbooks/fake-plugin/issues/91)) ([df477d2](https://github.com/pressbooks/fake-plugin/commit/df477d2ebd62ce76b52f86b5d56ce914f8b6c176))
+* test bedrock update ([#92](https://github.com/pressbooks/fake-plugin/issues/92)) ([85ca173](https://github.com/pressbooks/fake-plugin/commit/85ca173863701b58d8ab606b3c9cbeb5069246b1))
+* test to trigger release ([#89](https://github.com/pressbooks/fake-plugin/issues/89)) ([49da5ee](https://github.com/pressbooks/fake-plugin/commit/49da5ee83cef62fd6c6316fcd1a4be853910bded))
+
 ## [1.9.3](https://github.com/pressbooks/fake-plugin/compare/1.9.2...1.9.3) (2024-05-17)
 
 
