@@ -7,5 +7,4 @@ on:
 jobs:
   deploy:
     uses: pressbooks/reusable-workflows/.github/workflows/prepare-release.yml@test-tag-release
-    secrets:
-      ga_token: ${{ secrets.GITHUB_TOKEN }}
+    secrets: inherit
