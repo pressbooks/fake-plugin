@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.6](https://github.com/pressbooks/fake-plugin/compare/1.9.5...1.9.6) (2024-05-21)
+
+
+### Bug Fixes
+
+* trigger bedrock update ([#96](https://github.com/pressbooks/fake-plugin/issues/96)) ([824e740](https://github.com/pressbooks/fake-plugin/commit/824e740d51c49316dca9b8d342e0b4f56221e50d))
+
 ## [1.9.5](https://github.com/pressbooks/fake-plugin/compare/1.9.4...1.9.5) (2024-05-21)
 
 
