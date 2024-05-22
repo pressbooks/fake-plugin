@@ -6,14 +6,13 @@ on:
     paths:
       - '**.php'
       - '**.js'
-  workflow_dispatch:
-
 jobs:
   update-pot-file:
-    uses: pressbooks/reusable-workflows/.github/workflows/update-pot.yml@main
+    uses: pressbooks/reusable-workflows/.github/workflows/update-pot.yml@fix/pot-trigger
     secrets: inherit
     with:
       domain: 'pressbooks-fake-plugin'
       slug: 'pressbooks-fake-plugin'
       package_name: 'Pressbooks Fake Plugin'
       headers: '{"Report-Msgid-Bugs-To": "https://github.com/pressbooks/fake-plugin/issues"}'
+      pull_request_number: ${{ github.event.pull_request.number }}
