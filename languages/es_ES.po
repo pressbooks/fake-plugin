@@ -6,9 +6,9 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Pressbooks Fake Plugin 1.9.0\n"
+"Project-Id-Version: Pressbooks Fake Plugin 1.9.6\n"
 "Report-Msgid-Bugs-To: https://github.com/pressbooks/fake-plugin/issues\n"
-"POT-Creation-Date: 2024-05-16T19:24:10+00:00\n"
+"POT-Creation-Date: 2024-05-22T23:45:05+00:00\n"
 "PO-Revision-Date: 2024-04-16 22:27+0000\n"
 "Last-Translator: Felipe Dalcin, 2024\n"
 "Language-Team: Spanish (https://app.transifex.com/pressbooks/teams/9194/es/)\n"
@@ -46,8 +46,8 @@ msgid "Hello, people!"
 msgstr ""
 
 #: src/App.php:14
-msgid "Hello, world!"
-msgstr "Hola, mundo!"
+msgid "Hello, world 2!"
+msgstr ""
 
 #: src/App.php:19
 msgid "Hello, bye!"
