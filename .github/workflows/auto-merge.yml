@@ -6,7 +6,7 @@ on:
 jobs:
   translations:
     if: github.actor == 'pressbooks-ops' || github.actor == 'transifex-integration[bot]' || github.actor == 'dependabot[bot]'
-    uses: pressbooks/reusable-workflows/.github/workflows/auto-merge.yml@test-tag-release
+    uses: pressbooks/reusable-workflows/.github/workflows/auto-merge.yml@main
     with:
       pr_title_pattern: '^(chore\((l10n|i18n)\):)'
     secrets: inherit

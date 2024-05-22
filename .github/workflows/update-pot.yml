@@ -10,7 +10,7 @@ on:
 
 jobs:
   update-pot-file:
-    uses: pressbooks/reusable-workflows/.github/workflows/update-pot.yml@test-tag-release
+    uses: pressbooks/reusable-workflows/.github/workflows/update-pot.yml@main
     secrets: inherit
     with:
       domain: 'pressbooks-fake-plugin'
