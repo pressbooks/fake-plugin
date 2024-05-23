@@ -1,0 +1,14 @@
+name: Debug Workflows
+
+on: workflow_dispatch
+
+jobs:
+  list-workflows:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: List Workflows
+        run: |
+          curl -H "Accept: application/vnd.github.v3+json" \
+               -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+               https://api.github.com/repos/${{ github.repository }}/actions/workflows
