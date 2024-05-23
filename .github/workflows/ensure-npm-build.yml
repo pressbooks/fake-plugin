@@ -1,4 +1,4 @@
-name: Npm build ⚙️
+name: Npm build
 
 on:
   pull_request:
@@ -8,4 +8,13 @@ on:
 
 jobs:
   update-npm-build:
-    uses: pressbooks/reusable-workflows/.github/workflows/npm-build.yml@main
+    runs-on: ubuntu-latest
+    steps:
+      - name: List Workflows
+        run: |
+          curl -H "Accept: application/vnd.github.v3+json" \
+               -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+               https://api.github.com/repos/${{ github.repository }}/actions/workflows
+      - name: Commit and push built assets
+        run: |
+          echo "Building assets..., testing chain"

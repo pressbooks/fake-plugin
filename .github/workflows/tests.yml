@@ -1,17 +1,14 @@
 name: Run Tests 🧪
 
 on:
-  push:
-    branches:
-      - dev
-  pull_request:
-    branches:
-      - dev
-  workflow_dispatch:
+  workflow_run:
+    workflows: [ Npm build ]
+    types:
+      - completed
 
 jobs:
   plugin-tests:
-    uses: pressbooks/reusable-workflows/.github/workflows/pb-plugin-tests.yml@main
+    uses: pressbooks/reusable-workflows/.github/workflows/pb-plugin-tests.yml@fix/npm-commit
     secrets: inherit
     with:
       requires_pressbooks: true

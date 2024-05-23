@@ -11,7 +11,7 @@ class App
 
     public function __toString()
     {
-        return __('Hello, world 2!', 'pressbooks-fake-plugin');
+        return __('Hello, world 5!', 'pressbooks-fake-plugin');
     }
 
     public function hi()
