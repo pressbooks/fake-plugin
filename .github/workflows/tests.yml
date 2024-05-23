@@ -3,7 +3,6 @@ name: Run Tests 🧪
 on:
   workflow_run:
     workflows: [ "Build npm ⚙️" ]
-    branch: dev
     types:
       - completed
 
