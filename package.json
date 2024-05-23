@@ -4,7 +4,7 @@
   "description": "Hello world trigger 🚀 !! seems nice",
   "main": "index.js",
   "scripts": {
-    "build": "echo \"Build: ok\" && exit 0"
+		"build": "echo \"Starting build process...\" && echo \"Build process completed successfully!\" > build.txt"
   },
   "author": "",
   "license": "ISC"
