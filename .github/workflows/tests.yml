@@ -8,7 +8,6 @@ on:
 
 jobs:
   plugin-tests:
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     uses: pressbooks/reusable-workflows/.github/workflows/pb-plugin-tests.yml@fix/npm-commit
     secrets: inherit
     with:
