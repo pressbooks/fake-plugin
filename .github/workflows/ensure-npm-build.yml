@@ -8,4 +8,8 @@ on:
 
 jobs:
   update-npm-build:
-    uses: pressbooks/reusable-workflows/.github/workflows/npm-build.yml@fix/npm-commit
+    runs-on: ubuntu-latest
+    steps:
+      - name: Commit and push built assets
+        run: |
+          echo "Building assets..., testing chain"
