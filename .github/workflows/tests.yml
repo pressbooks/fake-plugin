@@ -2,7 +2,7 @@ name: Run Tests 🧪
 
 on:
   workflow_run:
-    workflows: [ "Build npm ⚙️" ]
+    workflows: [ Npm build ⚙️ ]
     types:
       - completed
 
