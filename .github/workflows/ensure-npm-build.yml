@@ -1,4 +1,4 @@
-name: Npm build ⚙️
+name: Npm build
 
 on:
   pull_request:
