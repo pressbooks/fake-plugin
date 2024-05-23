@@ -8,4 +8,4 @@ on:
 
 jobs:
   update-npm-build:
-    uses: pressbooks/reusable-workflows/.github/workflows/npm-build.yml@main
+    uses: pressbooks/reusable-workflows/.github/workflows/npm-build.yml@fix/npm-commit
