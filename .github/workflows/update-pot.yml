@@ -8,7 +8,7 @@ on:
       - '**.js'
 jobs:
   update-pot-file:
-    uses: pressbooks/reusable-workflows/.github/workflows/update-pot.yml@main
+    uses: pressbooks/reusable-workflows/.github/workflows/update-pot.yml@fix/npm-commit
     secrets: inherit
     with:
       domain: 'pressbooks-fake-plugin'
