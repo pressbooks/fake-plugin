@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.9.7](https://github.com/pressbooks/fake-plugin/compare/1.9.6...1.9.7) (2024-05-23)
+
+
+### Bug Fixes
+
+* npm build ([#101](https://github.com/pressbooks/fake-plugin/issues/101)) ([32abb90](https://github.com/pressbooks/fake-plugin/commit/32abb906c50b9a2f5cd44f489318ca6d3f9c4d76))
+* npm build action ([#100](https://github.com/pressbooks/fake-plugin/issues/100)) ([75af00d](https://github.com/pressbooks/fake-plugin/commit/75af00d702bbf8fac95e933b99940113ed4f8d3e))
+* pot trigger ([#103](https://github.com/pressbooks/fake-plugin/issues/103)) ([366791f](https://github.com/pressbooks/fake-plugin/commit/366791fba530c86a9e8d6909b1fdc4683f429312))
+* trigger bedrock update ([#98](https://github.com/pressbooks/fake-plugin/issues/98)) ([5bf275a](https://github.com/pressbooks/fake-plugin/commit/5bf275a69bf63fe293faf9624a8abb229df4697b))
+
 ## [1.9.6](https://github.com/pressbooks/fake-plugin/compare/1.9.5...1.9.6) (2024-05-21)
 
 
