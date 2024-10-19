@@ -48,7 +48,7 @@ msgstr "¡Hola, gente!"
 
 #: src/App.php:14
 msgid "Hello, world 2!"
-msgstr ""
+msgstr "¡Hola, mundo 2!"
 
 #: src/App.php:19
 msgid "Hello, bye!"
