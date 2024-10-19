@@ -56,8 +56,8 @@ msgstr "¡Hola, adiós!"
 
 #: src/App.php:24
 msgid "Super au revoir"
-msgstr ""
+msgstr "Super au revoir"
 
 #: src/App.php:29
 msgid "Salut! garçon"
-msgstr ""
+msgstr "Salut! garçon"
