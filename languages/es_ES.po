@@ -52,7 +52,7 @@ msgstr "¡Hola, mundo 2!"
 
 #: src/App.php:19
 msgid "Hello, bye!"
-msgstr ""
+msgstr "¡Hola, adiós!"
 
 #: src/App.php:24
 msgid "Super au revoir"
