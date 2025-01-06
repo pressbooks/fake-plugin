@@ -11,7 +11,7 @@ on:
 
 jobs:
   plugin-tests:
-    uses: pressbooks/reusable-workflows/.github/workflows/pb-plugin-tests.yml@main
+    uses: pressbooks/reusable-workflows/.github/workflows/pb-plugin-tests.yml@fix/performance-reduce-matrix
     secrets: inherit
     with:
       requires_pressbooks: true
