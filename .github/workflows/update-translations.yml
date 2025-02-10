@@ -11,7 +11,7 @@ on:
 
 jobs:
   update-translation-files:
-    uses: pressbooks/reusable-workflows/.github/workflows/update-translations.yml@update
+    uses: pressbooks/reusable-workflows/.github/workflows/update-translations.yml@updates
     secrets: inherit
     with:
       domain: 'pressbooks-fake-plugin'
