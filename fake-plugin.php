@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Plugin Name: Fake Plugin
  * Plugin URI: https://pressbooks.org
