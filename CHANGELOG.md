@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.10](https://github.com/pressbooks/fake-plugin/compare/1.9.9...1.9.10) (2025-02-11)
+
+
+### Bug Fixes
+
+* this is a better conventional commit ([746b02a](https://github.com/pressbooks/fake-plugin/commit/746b02a7ca003e1fe056f667f02b4efdfb88659d))
+
 ## [1.9.9](https://github.com/pressbooks/fake-plugin/compare/1.9.8...1.9.9) (2025-02-11)
 
 
