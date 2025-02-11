@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.13](https://github.com/pressbooks/fake-plugin/compare/1.9.12...1.9.13) (2025-02-11)
+
+
+### Bug Fixes
+
+* preprocess slack message ([2c9cfa0](https://github.com/pressbooks/fake-plugin/commit/2c9cfa0ab369e4d6f701fc004e31c174b1b52735))
+
 ## [1.9.12](https://github.com/pressbooks/fake-plugin/compare/1.9.11...1.9.12) (2025-02-11)
 
 
