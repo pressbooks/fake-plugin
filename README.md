@@ -1,7 +1,7 @@
 # fake-plugin
 Hello world trigger 🚀 !! seems nice
 
-## Hello bro
+## Beautiful README
 
 ### Changelog
 
