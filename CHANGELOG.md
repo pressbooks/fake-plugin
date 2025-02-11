@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.11](https://github.com/pressbooks/fake-plugin/compare/1.9.10...1.9.11) (2025-02-11)
+
+
+### Bug Fixes
+
+* this would be an amazing feature ([bb36720](https://github.com/pressbooks/fake-plugin/commit/bb36720d8158d0d8f31342f9bb07a551b22f7037))
+
 ## [1.9.10](https://github.com/pressbooks/fake-plugin/compare/1.9.9...1.9.10) (2025-02-11)
 
 
