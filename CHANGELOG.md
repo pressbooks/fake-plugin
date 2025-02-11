@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.15](https://github.com/pressbooks/fake-plugin/compare/1.9.14...1.9.15) (2025-02-11)
+
+
+### Bug Fixes
+
+* extract data manipulation ([e005ac6](https://github.com/pressbooks/fake-plugin/commit/e005ac60c927b89db58d65dde3bf6649d39c7900))
+
 ## [1.9.14](https://github.com/pressbooks/fake-plugin/compare/1.9.13...1.9.14) (2025-02-11)
 
 
