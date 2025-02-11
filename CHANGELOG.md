@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.14](https://github.com/pressbooks/fake-plugin/compare/1.9.13...1.9.14) (2025-02-11)
+
+
+### Bug Fixes
+
+* final message format ([9303535](https://github.com/pressbooks/fake-plugin/commit/930353500f1f2eecee27f7003697a67321a04424))
+
 ## [1.9.13](https://github.com/pressbooks/fake-plugin/compare/1.9.12...1.9.13) (2025-02-11)
 
 
