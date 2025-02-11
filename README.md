@@ -1,7 +1,7 @@
 # fake-plugin
 Hello world trigger 🚀 !! seems nice
 
-Don't trigger tests please
+## Should deploy
 
 ### Changelog
 
