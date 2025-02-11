@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.9.8](https://github.com/pressbooks/fake-plugin/compare/1.9.7...1.9.8) (2025-02-11)
+
+
+### Bug Fixes
+
+* release please ([#112](https://github.com/pressbooks/fake-plugin/issues/112)) ([3a6e3dc](https://github.com/pressbooks/fake-plugin/commit/3a6e3dce8ee3864b5d7c471fbabdeae4f1d13bf7))
+
+
+### Chores
+
+* **l10n:** Updates for project Fake Plugin ([4984dd5](https://github.com/pressbooks/fake-plugin/commit/4984dd5b38c40705cf3ba08bc96318600a8abe59))
+* not trigger tests ([dbed775](https://github.com/pressbooks/fake-plugin/commit/dbed7752bb6f4b3f90f21ad18510d8feb06b7f51))
+* update translations ([#107](https://github.com/pressbooks/fake-plugin/issues/107)) ([f135d60](https://github.com/pressbooks/fake-plugin/commit/f135d602c1590e51a28b681f6469f8e22e388733))
+
 ## [1.9.7](https://github.com/pressbooks/fake-plugin/compare/1.9.6...1.9.7) (2024-05-23)
 
 
