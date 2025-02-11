@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.12](https://github.com/pressbooks/fake-plugin/compare/1.9.11...1.9.12) (2025-02-11)
+
+
+### Bug Fixes
+
+* slack message format ([689f1ac](https://github.com/pressbooks/fake-plugin/commit/689f1ac647dfbf5719869fb5b0080f5f2c685465))
+
 ## [1.9.11](https://github.com/pressbooks/fake-plugin/compare/1.9.10...1.9.11) (2025-02-11)
 
 
