@@ -1,17 +1,16 @@
-name: Update Translation Files 🌐
+name: Update .pot file 🌐
 
 on:
-  pull_request:
+  push:
     branches: [dev]
     paths:
       - "**/*.php"
       - "**/*.js"
-      - "languages/*.po"
   workflow_dispatch:
 
 jobs:
-  update-translation-files:
-    uses: pressbooks/reusable-workflows/.github/workflows/update-translations.yml@updates
+  update-pot-file:
+    uses: pressbooks/reusable-workflows/.github/workflows/update-pot.yml@updates
     secrets: inherit
     with:
       domain: 'pressbooks-fake-plugin'
