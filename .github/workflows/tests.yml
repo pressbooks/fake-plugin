@@ -4,9 +4,33 @@ on:
   push:
     branches:
       - dev
+    paths:
+      - '**/*.php'
+      - '**/*.js'
+      - '**/*.json'
+      - '**/*.yml'
+      - '**/*.yaml'
+      - 'composer.lock'
+      - 'composer.json'
+      - '!languages/**'
+      - '!docs/**'
+      - '!.github/**'
+      - '!**/*.md'
   pull_request:
     branches:
       - dev
+    paths:
+      - '**/*.php'
+      - '**/*.js'
+      - '**/*.json'
+      - '**/*.yml'
+      - '**/*.yaml'
+      - 'composer.lock'
+      - 'composer.json'
+      - '!languages/**'
+      - '!docs/**'
+      - '!.github/**'
+      - '!**/*.md'
   workflow_dispatch:
 
 jobs:
