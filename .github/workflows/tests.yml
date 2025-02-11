@@ -7,14 +7,13 @@ on:
     paths:
       - '**/*.php'
       - '**/*.js'
+      - '**/*.css'
       - '**/*.json'
       - '**/*.yml'
-      - '**/*.yaml'
       - 'composer.lock'
       - 'composer.json'
       - '!languages/**'
       - '!docs/**'
-      - '!.github/**'
       - '!**/*.md'
   pull_request:
     branches:
@@ -22,20 +21,19 @@ on:
     paths:
       - '**/*.php'
       - '**/*.js'
+      - '**/*.css'
       - '**/*.json'
       - '**/*.yml'
-      - '**/*.yaml'
       - 'composer.lock'
       - 'composer.json'
       - '!languages/**'
       - '!docs/**'
-      - '!.github/**'
       - '!**/*.md'
   workflow_dispatch:
 
 jobs:
   plugin-tests:
-    uses: pressbooks/reusable-workflows/.github/workflows/pb-plugin-tests.yml@main
+    uses: pressbooks/reusable-workflows/.github/workflows/pb-plugin-tests.yml@updates
     secrets: inherit
     with:
       requires_pressbooks: true
