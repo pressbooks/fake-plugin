@@ -1,12 +1,12 @@
 name: Update .mo files 🌐
 
 on:
-  pull_request:
+  push:
     branches: [ dev ]
     paths:
-      - 'languages/*.po'
+      - "languages/*.po"
   workflow_dispatch:
 
 jobs:
   update-mo-files:
-    uses: pressbooks/reusable-workflows/.github/workflows/update-mo.yml@main
+    uses: pressbooks/reusable-workflows/.github/workflows/update-mo.yml@updates
