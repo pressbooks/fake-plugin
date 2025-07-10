@@ -55,7 +55,7 @@ msgstr "Salut, bye"
 
 #: src/App.php:26
 msgid "oh la la"
-msgstr ""
+msgstr "Oh lili"
 
 #: src/App.php:31
 msgid "Salut! garçon"
