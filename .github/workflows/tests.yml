@@ -5,30 +5,30 @@ on:
     branches:
       - dev
     paths:
-      - '**/*.php'
-      - '**/*.js'
-      - '**/*.css'
-      - '**/*.json'
-      - '**/*.yml'
-      - 'composer.lock'
-      - 'composer.json'
-      - '!languages/**'
-      - '!docs/**'
-      - '!**/*.md'
+      - "**/*.php"
+      - "**/*.js"
+      - "**/*.css"
+      - "**/*.json"
+      - "**/*.yml"
+      - "composer.lock"
+      - "composer.json"
+      - "!languages/**"
+      - "!docs/**"
+      - "!**/*.md"
   pull_request:
     branches:
       - dev
     paths:
-      - '**/*.php'
-      - '**/*.js'
-      - '**/*.css'
-      - '**/*.json'
-      - '**/*.yml'
-      - 'composer.lock'
-      - 'composer.json'
-      - '!languages/**'
-      - '!docs/**'
-      - '!**/*.md'
+      - "**/*.php"
+      - "**/*.js"
+      - "**/*.css"
+      - "**/*.json"
+      - "**/*.yml"
+      - "composer.lock"
+      - "composer.json"
+      - "!languages/**"
+      - "!docs/**"
+      - "!**/*.md"
   workflow_dispatch:
 
 jobs:
@@ -38,7 +38,6 @@ jobs:
     with:
       requires_pressbooks: true
       use_mariadb: true
-      requires_private_repo: 'pressbooks-lti-provider-1p3'
   trigger_bedrock_updates:
     needs: plugin-tests
     runs-on: ubuntu-latest
@@ -53,5 +52,3 @@ jobs:
           AWS_SNS_ARN_STAGING: ${{ secrets.AWS_SNS_ARN_STAGING }}
           INPUT_TRIGGERED_BY: ${{ github.repository }}
           REF: ${{ github.ref }}
-
-
