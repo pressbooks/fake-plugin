@@ -63,7 +63,7 @@ msgstr "Bonjour, niño"
 
 #: src/App.php:43
 msgid "Salut! souris"
-msgstr ""
+msgstr "Hola ratones"
 
 #: src/App.php:48
 msgid "Salut! café"
