@@ -6,7 +6,10 @@ on:
 jobs:
   translations:
     if: github.actor == 'pressbooks-ops' || github.actor == 'transifex-integration[bot]' || github.actor == 'dependabot[bot]' || github.actor == 'github-actions[bot]'
-    uses: pressbooks/reusable-workflows/.github/workflows/auto-merge.yml@main
+    uses: pressbooks/reusable-workflows/.github/workflows/auto-merge.yml@fix/translations
     with:
       pr_title_pattern: '^(chore\((l10n|i18n)\):)'
+      merge_method: "squash"
+      max_wait_minutes: 10
+      skip_labels: "do-not-merge,needs-review,breaking-change,autorelease: pending"
     secrets: inherit
