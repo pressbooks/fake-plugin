@@ -68,4 +68,4 @@ msgstr "Hola rata"
 
 #: src/App.php:48
 msgid "Salut! café"
-msgstr ""
+msgstr "Hola cafecito"
