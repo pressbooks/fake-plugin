@@ -1,6 +1,6 @@
 <?php
 
-// Test 6
+// Test 7
 
 namespace Pressbooks\FakePlugin;
 
