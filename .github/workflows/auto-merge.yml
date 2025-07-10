@@ -5,7 +5,7 @@ on:
 
 jobs:
   translations:
-    if: github.actor == 'pressbooks-ops' || github.actor == 'transifex-integration[bot]' || github.actor == 'dependabot[bot]' || github.actor == 'github-actions[bot]'
+    if: (github.actor == 'pressbooks-ops' || github.actor == 'transifex-integration[bot]' || github.actor == 'dependabot[bot]' || github.actor == 'github-actions[bot]') || contains(github.event.pull_request.labels.*.name, 'auto-generated')
     uses: pressbooks/reusable-workflows/.github/workflows/auto-merge.yml@fix/translations
     with:
       merge_method: "squash"
