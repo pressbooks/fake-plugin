@@ -47,4 +47,9 @@ class App
     {
         return __("Salut! café", "pressbooks-fake-plugin");
     }
+
+    public function getBlabla()
+    {
+        return __("Hello! bla", "pressbooks-fake-plugin");
+    }
 }
