@@ -1,11 +1,11 @@
 name: Automerge ✨
 on:
   pull_request_target:
-    types: [ opened ]
+    types: [opened]
 
 jobs:
   translations:
-    if: github.actor == 'pressbooks-ops' || github.actor == 'transifex-integration[bot]' || github.actor == 'dependabot[bot]'
+    if: github.actor == 'pressbooks-ops' || github.actor == 'transifex-integration[bot]' || github.actor == 'dependabot[bot]' || github.actor == 'github-actions[bot]'
     uses: pressbooks/reusable-workflows/.github/workflows/auto-merge.yml@main
     with:
       pr_title_pattern: '^(chore\((l10n|i18n)\):)'

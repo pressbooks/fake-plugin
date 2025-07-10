@@ -2,9 +2,9 @@ name: Release Process 🤖
 
 on:
   push:
-    branches: [ dev ]
+    branches: [dev]
 
 jobs:
   deploy:
-    uses: pressbooks/reusable-workflows/.github/workflows/prepare-release.yml@updates
+    uses: pressbooks/reusable-workflows/.github/workflows/prepare-release.yml@main
     secrets: inherit
