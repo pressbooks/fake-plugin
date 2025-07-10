@@ -33,7 +33,7 @@ on:
 
 jobs:
   plugin-tests:
-    uses: pressbooks/reusable-workflows/.github/workflows/pb-plugin-tests.yml@updates
+    uses: pressbooks/reusable-workflows/.github/workflows/pb-plugin-tests.yml@main
     secrets: inherit
     with:
       requires_pressbooks: true
