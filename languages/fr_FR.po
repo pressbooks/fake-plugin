@@ -34,7 +34,7 @@ msgstr "https://pressbooks.org"
 #. Description of the plugin
 #: fake-plugin.php
 msgid "Plugin for testing purposes."
-msgstr "Plugin pour le test"
+msgstr "Plugin pour le testation"
 
 #. Author of the plugin
 #: fake-plugin.php
