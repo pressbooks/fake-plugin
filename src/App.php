@@ -52,4 +52,9 @@ class App
     {
         return __("Hello! bla", "pressbooks-fake-plugin");
     }
+
+    public function getPot()
+    {
+        return __("Hello! pot", "pressbooks-fake-plugin");
+    }
 }
