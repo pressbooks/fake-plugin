@@ -76,4 +76,4 @@ msgstr "¡Hola! bla"
 
 #: src/App.php:58
 msgid "Hello! pot"
-msgstr ""
+msgstr "¡Hola! pot"
