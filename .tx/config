@@ -1,9 +1,0 @@
-[main]
-host = https://www.transifex.com
-
-[o:pressbooks:p:fake-plugin:r:fake-plugin]
-file_filter = languages/fake-plugin-<lang>.po
-lang_map = es:es_ES, fr:fr_FR
-source_file = languages/fake-plugin.pot
-source_lang = en
-type = PO
