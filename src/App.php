@@ -23,7 +23,7 @@ class App
 
     public function bye()
     {
-        return __("oh la la", "pressbooks-fake-plugin");
+        return __("oh la la, see you", "pressbooks-fake-plugin");
     }
 
     public function salutation()
@@ -56,5 +56,10 @@ class App
     public function getPot()
     {
         return __("Hello! pot", "pressbooks-fake-plugin");
+    }
+
+    public function getCat()
+    {
+        return __("Hello! cat", "pressbooks-fake-plugin");
     }
 }
