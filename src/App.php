@@ -60,6 +60,6 @@ class App
 
     public function getCat()
     {
-        return __("Hello! cat", "pressbooks-fake-plugin");
+        return __("Hello! cat, what's up?", "pressbooks-fake-plugin");
     }
 }
