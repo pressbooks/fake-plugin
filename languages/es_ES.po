@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2026-01-15T13:31:43+00:00\n"
-"PO-Revision-Date: 2026-01-15 13:35\n"
+"PO-Revision-Date: 2026-01-15 13:45\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: pressbooks-fake-plugin\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -52,7 +52,7 @@ msgstr ""
 
 #: src/App.php:21
 msgid "See ya, bye!"
-msgstr ""
+msgstr "¡Nos vemos, chau!"
 
 #: src/App.php:26
 msgid "oh la la, see you"
