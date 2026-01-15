@@ -18,7 +18,7 @@ class App
 
     public function hi()
     {
-        return __("Hello, bye!", "pressbooks-fake-plugin");
+        return __("See ya, bye!", "pressbooks-fake-plugin");
     }
 
     public function bye()
