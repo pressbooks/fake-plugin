@@ -53,9 +53,14 @@ class App
         return __("Hello! bla", "pressbooks-fake-plugin");
     }
 
-    public function getPot()
+    public function getDuck()
     {
-        return __("Hello! pot", "pressbooks-fake-plugin");
+        return __("Hello! duck, nice to see you", "pressbooks-fake-plugin");
+    }
+
+    public function getCow()
+    {
+        return __("Hello! cow, nice to see you", "pressbooks-fake-plugin");
     }
 
     public function getCat(): string
