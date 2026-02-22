@@ -1,3 +1,17 @@
+project_id_env: CROWDIN_OPEN_PROJECT_ID
+api_token_env: CROWDIN_API_SECRET
 files:
   - source: /languages/fake-plugin.pot
     translation: /languages/%locale_with_underscore%.po
+    languages_mapping:
+      locale_with_underscore:
+        de: de_DE
+        es: es_ES
+        fr: fr_FR
+        gl: gl_ES
+        nb: nb_NO
+        it: it_IT
+        ka: ka_GE
+        ru: ru_RU
+        ta: ta_LK
+        hr: hr_HR
