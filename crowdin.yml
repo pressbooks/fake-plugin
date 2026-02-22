@@ -1,5 +1,6 @@
 project_id_env: CROWDIN_OPEN_PROJECT_ID
 api_token_env: CROWDIN_API_SECRET
+pull_request_title: "chore:(i18n) Update translations"
 files:
   - source: /languages/fake-plugin.pot
     translation: /languages/%locale_with_underscore%.po
