@@ -82,3 +82,7 @@ msgstr ""
 #: src/App.php:73
 msgid "Hello! dog, nice to see you"
 msgstr ""
+
+#: src/App.php:78
+msgid "This will be a new string used by Crowdin, it should be available in Crowdin and then we should translate them in Crowdin, then after that Crowdin will generate a PR with .po files"
+msgstr ""
