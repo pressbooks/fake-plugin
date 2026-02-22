@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2026-02-18T11:13:23+00:00\n"
-"PO-Revision-Date: 2026-02-22 00:11\n"
+"PO-Revision-Date: 2026-02-22 00:44\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: pressbooks-fake-plugin\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
@@ -24,7 +24,7 @@ msgstr ""
 #. Plugin Name of the plugin
 #: fake-plugin.php
 msgid "Fake Plugin"
-msgstr "Faux plugin"
+msgstr ""
 
 #. Plugin URI of the plugin
 #. Author URI of the plugin
@@ -35,20 +35,20 @@ msgstr ""
 #. Description of the plugin
 #: fake-plugin.php
 msgid "Plugin for testing purposes."
-msgstr "Plugin pour le testation"
+msgstr ""
 
 #. Author of the plugin
 #: fake-plugin.php
 msgid "Pressbooks (Book Oven Inc.)"
-msgstr "Pressbooks (Fournil aux Livres Inc.)"
+msgstr ""
 
 #: src/App.php:11
 msgid "Hello, people!"
-msgstr "Bonjour, les gens"
+msgstr ""
 
 #: src/App.php:16
 msgid "Hello, world 2!"
-msgstr "Salut, tout le monde 2"
+msgstr ""
 
 #: src/App.php:21
 msgid "See ya, bye!"
@@ -60,7 +60,7 @@ msgstr ""
 
 #: src/App.php:31
 msgid "Salut! garçon"
-msgstr "Bonjour, niño"
+msgstr ""
 
 #: src/App.php:43
 msgid "Salut! souris"
