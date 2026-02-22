@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2026-02-18T11:13:23+00:00\n"
-"PO-Revision-Date: 2026-02-21 23:43\n"
+"PO-Revision-Date: 2026-02-22 00:11\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: pressbooks-fake-plugin\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
@@ -88,5 +88,9 @@ msgstr ""
 
 #: src/App.php:73
 msgid "Hello! dog, nice to see you"
+msgstr ""
+
+#: src/App.php:78
+msgid "This will be a new string used by Crowdin, it should be available in Crowdin and then we should translate them in Crowdin, then after that Crowdin will generate a PR with .po files"
 msgstr ""
 
