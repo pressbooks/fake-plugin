@@ -82,4 +82,9 @@ class App
 	{
 		return __("Crowdin rules?", "pressbooks-fake-plugin");
 	}
+
+	public function crow(): string
+	{
+		return __("Crowdin fails?", "pressbooks-fake-plugin");
+	}
 }
