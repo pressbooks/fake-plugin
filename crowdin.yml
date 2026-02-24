@@ -4,6 +4,7 @@
 "files": [
   {
     "source": "/languages/fake-plugin.pot",
+    "dest": "/languages/fake-plugin.pot",
     "translation": "/languages/%locale_with_underscore%.po",
     "languages_mapping": {
       "locale_with_underscore": {
