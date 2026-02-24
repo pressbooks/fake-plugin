@@ -1,62 +1,96 @@
-# Copyright (C) 2024 Pressbooks (Book Oven Inc.)
+# Copyright (C) 2026 Pressbooks (Book Oven Inc.)
 # This file is distributed under the GPL v3 or later.
-# Translators:
-# Felipe Dalcin, 2024
-# Oscar Arzola, 2025
-# 
 msgid ""
 msgstr ""
-"Project-Id-Version: Pressbooks Fake Plugin 1.9.6\n"
+"Project-Id-Version: pressbooks-open-source\n"
 "Report-Msgid-Bugs-To: https://github.com/pressbooks/fake-plugin/issues\n"
-"POT-Creation-Date: 2024-05-22T23:45:05+00:00\n"
-"PO-Revision-Date: 2024-04-16 22:27+0000\n"
-"Last-Translator: Oscar Arzola, 2025\n"
-"Language-Team: French (https://app.transifex.com/pressbooks/teams/9194/fr/)\n"
+"Last-Translator: \n"
+"Language-Team: French\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
-"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"POT-Creation-Date: 2026-02-18T11:13:23+00:00\n"
+"PO-Revision-Date: 2026-02-24 02:38\n"
+"X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: pressbooks-fake-plugin\n"
-"X-Generator: WP-CLI 2.10.0\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: pressbooks-open-source\n"
+"X-Crowdin-Project-ID: 866076\n"
+"X-Crowdin-Language: fr\n"
+"X-Crowdin-File: /dev/languages/fake-plugin.pot\n"
+"X-Crowdin-File-ID: 18\n"
+"Language: fr_FR\n"
 
 #. Plugin Name of the plugin
 #: fake-plugin.php
 msgid "Fake Plugin"
-msgstr "Faux plugin"
+msgstr ""
 
 #. Plugin URI of the plugin
 #. Author URI of the plugin
 #: fake-plugin.php
 msgid "https://pressbooks.org"
-msgstr "https://pressbooks.org"
+msgstr ""
 
 #. Description of the plugin
 #: fake-plugin.php
 msgid "Plugin for testing purposes."
-msgstr "Plugin pour le testation"
+msgstr ""
 
 #. Author of the plugin
 #: fake-plugin.php
 msgid "Pressbooks (Book Oven Inc.)"
-msgstr "Pressbooks (Fournil aux Livres Inc.)"
+msgstr ""
 
-#: src/App.php:9
+#: src/App.php:11
 msgid "Hello, people!"
-msgstr "Bonjour, les gens"
+msgstr ""
 
-#: src/App.php:14
+#: src/App.php:16
 msgid "Hello, world 2!"
-msgstr "Salut, tout le monde 2"
+msgstr ""
 
-#: src/App.php:19
-msgid "Hello, bye!"
-msgstr "Salut, bye"
+#: src/App.php:21
+msgid "See ya, bye!"
+msgstr ""
 
-#: src/App.php:24
-msgid "Super au revoir"
-msgstr "Super, bye"
+#: src/App.php:26
+msgid "oh la la, see you"
+msgstr ""
 
-#: src/App.php:29
+#: src/App.php:31
 msgid "Salut! garçon"
-msgstr "Bonjour, niño"
+msgstr ""
+
+#: src/App.php:43
+msgid "Salut! souris"
+msgstr ""
+
+#: src/App.php:48
+msgid "Salut! café"
+msgstr ""
+
+#: src/App.php:53
+msgid "Hello! bla"
+msgstr ""
+
+#: src/App.php:58
+msgid "Hello! duck, nice to see you"
+msgstr ""
+
+#: src/App.php:63
+msgid "Hello! cow, nice to see you"
+msgstr ""
+
+#: src/App.php:68
+msgid "Hello! cat, nice to see you"
+msgstr ""
+
+#: src/App.php:73
+msgid "Hello! dog, nice to see you"
+msgstr ""
+
+#: src/App.php:78
+msgid "This will be a new string used by Crowdin, it should be available in Crowdin and then we should translate them in Crowdin, then after that Crowdin will generate a PR with .po files"
+msgstr ""
+
