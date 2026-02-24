@@ -7,15 +7,15 @@
     "translation": "/languages/%locale_with_underscore%.po",
     "languages_mapping": {
       "locale_with_underscore": {
-        "de-DE": "de_DE",
+        "de": "de_DE",
         "es-ES": "es_ES",
-        "fr-FR": "fr_FR",
-        "gl-ES": "gl_ES",
-        "nb-NO": "nb_NO",
-        "it-IT": "it_IT",
-        "ka-GE": "ka_GE",
-        "ru-RU": "ru_RU",
-        "ta-LK": "ta_LK",
+        "fr": "fr_FR",
+        "gl": "gl_ES",
+        "nb": "nb_NO",
+        "it": "it_IT",
+        "ka": "ka_GE",
+        "ru": "ru_RU",
+        "ta": "ta_LK",
         "hr": "hr_HR"
       }
     }
