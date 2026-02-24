@@ -1,6 +1,7 @@
 "project_id_env": "CROWDIN_OPEN_PROJECT_ID"
 "api_token_env": "CROWDIN_API_SECRET"
 "pull_request_title": "chore(l10n): Translations updates"
+"preserve_hierarchy": true
 "files": [
   {
     "source": "/languages/fake-plugin.pot",
