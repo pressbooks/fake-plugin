@@ -99,7 +99,7 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               state: 'open',
-              head: `${context.repo.owner}:l10n_crowdin_translations`
+              head: `${context.repo.owner}:l10n_crowdin_action`
             });
             
             if (pulls.length === 0) {
