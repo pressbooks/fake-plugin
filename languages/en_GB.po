@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: pressbooks-open-source\n"
 "Report-Msgid-Bugs-To: https://github.com/pressbooks/pressbooks-hamilton/issues\n"
 "Last-Translator: \n"
-"Language-Team: Croatian\n"
+"Language-Team: English, United Kingdom\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -13,13 +13,13 @@ msgstr ""
 "PO-Revision-Date: 2026-03-04 00:07\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: pressbooks-hamilton\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: pressbooks-open-source\n"
 "X-Crowdin-Project-ID: 866076\n"
-"X-Crowdin-Language: hr\n"
+"X-Crowdin-Language: en-GB\n"
 "X-Crowdin-File: /dev/languages/pressbooks-hamilton.pot\n"
 "X-Crowdin-File-ID: 28\n"
-"Language: hr_HR\n"
+"Language: en_GB\n"
 
 #. Theme Name of the theme
 #: style.css
@@ -34,7 +34,7 @@ msgstr ""
 #. Description of the theme
 #: style.css
 msgid "This theme is named after Canadian media theorist Marshall McLuhan, who coined the phrase “the medium is the message.” It is designed for academic writing and is also suitable for fiction. Headings are set in Cormorant Garamond, and body type is set in Lora."
-msgstr "Ovaj je izgled/tema nazvana po kanadskom teoretičaru medija Marshallu McLuhanu, koji je skovao izraz \"medij je poruka\". Namijenjen je akademskom pisanju i također je prikladan za fikciju. Naslovi su postavljeni u Cormorant Garamond, a tip tijela je postavljen u Lora."
+msgstr ""
 
 #. Author of the theme
 #: style.css
@@ -48,37 +48,37 @@ msgstr ""
 
 #: 404.php:2
 msgid "Oops! That content can&rsquo;t be found."
-msgstr "Ups! Taj sadržaj nije moguće pronaći."
+msgstr ""
 
 #: 404.php:3
 msgid "It looks like nothing was found at this location. Try a search?"
-msgstr "Izgleda da na toj lokaciji ništa nije pronađeno. Pokušajte pretragu?"
+msgstr ""
 
 #: comments.php:2
 msgid "Feedback/Errata"
-msgstr "Povratne informacije/Errata"
+msgstr ""
 
 #: comments.php:6
 msgid "This post is password protected. Enter the password to view any comments."
-msgstr "Ova objava je zaštićena lozinkom. Unesite lozinku za pregled komentara."
+msgstr ""
 
 #: comments.php:36
 #: comments.php:47
 msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
-msgstr "<span class=\"meta-nav\">&larr;</span> Stariji komentari"
+msgstr ""
 
 #: comments.php:37
 #: comments.php:48
 msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
-msgstr "Noviji komentari <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
 
 #: comments.php:56
 msgid "Comments are closed."
-msgstr "Comentari su zatvoreni."
+msgstr ""
 
 #: comments.php:64
 msgid "Submit"
-msgstr "Podnesi"
+msgstr ""
 
 #. translators: %s: name of network
 #. translators: %s: name of organization
@@ -92,17 +92,17 @@ msgstr "Podnesi"
 #: page-buy.php:68
 #, php-format
 msgid "Logo for %s"
-msgstr "Logo za %s"
+msgstr ""
 
 #. translators: %s: Pressbooks
 #: footer.php:68
 #, php-format
 msgid "Powered by %s"
-msgstr "Pokreće %s"
+msgstr ""
 
 #: footer.php:70
 msgid "Guides and Tutorials"
-msgstr "Vodići i upute"
+msgstr ""
 
 #: footer.php:71
 msgid "Pressbooks Directory"
@@ -110,31 +110,31 @@ msgstr ""
 
 #: footer.php:80
 msgid "Pressbooks on YouTube"
-msgstr "Pressbooks na YouTube-u"
+msgstr ""
 
 #: footer.php:86
 msgid "Pressbooks on Twitter"
-msgstr "Pressbooks na Twitter-u"
+msgstr ""
 
 #: functions.php:16
 msgid "Dependencies Missing"
-msgstr "Nedostaju obavezni dijelovi"
+msgstr ""
 
 #: functions.php:17
 msgid "You must run <code>composer install</code> from the McLuhan directory."
-msgstr "Morate pokrenuti <code>composer install</code> iz mape McLuhan."
+msgstr ""
 
 #: functions.php:28
 msgid "Cannot find Pressbooks install."
-msgstr "Pressbooks instalacija nije pronađena."
+msgstr ""
 
 #: header.php:60
 msgid "Skip to content"
-msgstr "Preskoči, izravno na sadržaj"
+msgstr ""
 
 #: header.php:98
 msgid "Toggle Menu"
-msgstr "Prebaci izbornik"
+msgstr ""
 
 #: header.php:100
 msgid "Primary Navigation"
@@ -154,18 +154,18 @@ msgstr ""
 #: index.php:14
 #: partials/content-cover-toc.php:3
 msgid "Contents"
-msgstr "Sadržaj"
+msgstr ""
 
 #. translators: %s: the title of the book
 #: header.php:134
 #, php-format
 msgid "Go to the cover page of %s"
-msgstr "Idi na naslovnicu za %s"
+msgstr ""
 
 #: header.php:138
 #: inc/helpers/namespace.php:226
 msgid "Buy"
-msgstr "Kupi"
+msgstr ""
 
 #: header.php:147
 msgid "We should update the pot"
@@ -173,79 +173,79 @@ msgstr ""
 
 #: inc/actions/namespace.php:67
 msgid "Comparison loading…"
-msgstr "Usporedba se učitava..."
+msgstr ""
 
 #: inc/actions/namespace.php:68
 msgid "Comparison loaded."
-msgstr "Usporedba učitana."
+msgstr ""
 
 #: inc/actions/namespace.php:69
 msgid "The original chapter could not be loaded."
-msgstr "Originalno poglavlje nije moglo biti učitano."
+msgstr ""
 
 #: inc/actions/namespace.php:70
 msgid "Toggle contents of"
-msgstr "Prebaci sadržaj od"
+msgstr ""
 
 #: inc/actions/namespace.php:222
 msgid "Enable Image Lightbox"
-msgstr "Omogući Lightbox za slike"
+msgstr ""
 
 #: inc/actions/namespace.php:227
 msgid "Show linked images in a lightbox"
-msgstr "Prikaži povezane slike u Lightbox-u"
+msgstr ""
 
 #: inc/filters/namespace.php:19
 msgid "Private"
-msgstr "Privatno"
+msgstr ""
 
 #: inc/helpers/namespace.php:145
 msgid "Public Domain"
-msgstr "Javno"
+msgstr ""
 
 #: inc/helpers/namespace.php:148
 msgid "Creative Commons Attribution"
-msgstr "Imenovanje Creative Commons"
+msgstr ""
 
 #: inc/helpers/namespace.php:151
 msgid "Creative Commons Attribution ShareAlike"
-msgstr "Creative Commons Imenovanje Dijeli pod istim uvjetima"
+msgstr ""
 
 #: inc/helpers/namespace.php:154
 msgid "Creative Commons Attribution NoDerivatives"
-msgstr "Creative Commons Imenovanje NemaIzvedenica"
+msgstr ""
 
 #: inc/helpers/namespace.php:157
 msgid "Creative Commons Attribution NonCommercial"
-msgstr "Creative Commons Imenovanje Nekomercijalno"
+msgstr ""
 
 #: inc/helpers/namespace.php:160
 msgid "Creative Commons Attribution NonCommercial ShareAlike"
-msgstr "Creative Commons Attribution Nekomercijalno dijeljenje slično"
+msgstr ""
 
 #: inc/helpers/namespace.php:163
 msgid "Creative Commons Attribution NonCommercial NoDerivatives"
-msgstr "Creative Commons Imenovanje Nekomercijalno NemaIzvedenica"
+msgstr ""
 
 #: inc/helpers/namespace.php:167
 msgid "All Rights Reserved"
-msgstr "Sva prava pridržana"
+msgstr ""
 
 #: inc/helpers/namespace.php:181
 msgid "Check out this great book on Pressbooks."
-msgstr "Pogledajte ovu izvrsnu knjigu na Pressbooks."
+msgstr ""
 
 #: inc/helpers/namespace.php:209
 msgid "Home"
-msgstr "Početna"
+msgstr ""
 
 #: inc/helpers/namespace.php:217
 msgid "Read"
-msgstr "Pročitaj"
+msgstr ""
 
 #: inc/helpers/namespace.php:235
 msgid "Sign in"
-msgstr "Prijava"
+msgstr ""
 
 #: inc/helpers/namespace.php:244
 msgid "Admin"
@@ -253,81 +253,74 @@ msgstr ""
 
 #: inc/helpers/namespace.php:252
 msgid "Sign out"
-msgstr "Odjava"
+msgstr ""
 
 #: inc/helpers/namespace.php:436
 #: partials/content-cover-book-header.php:17
 #: partials/content-cover-book-info.php:52
 msgid "Author"
 msgid_plural "Authors"
-msgstr[0] "Autor"
-msgstr[1] "Autori"
-msgstr[2] "Autori"
+msgstr[0] ""
+msgstr[1] ""
 
 #: inc/helpers/namespace.php:437
 msgid "Editor"
 msgid_plural "Editors"
-msgstr[0] "Urednik"
-msgstr[1] "Urednici"
-msgstr[2] "Urednici"
+msgstr[0] ""
+msgstr[1] ""
 
 #: inc/helpers/namespace.php:438
 msgid "Translator"
 msgid_plural "Translators"
-msgstr[0] "Prevoditelj"
-msgstr[1] "Prevoditelji"
-msgstr[2] "Prevoditelji"
+msgstr[0] ""
+msgstr[1] ""
 
 #: inc/helpers/namespace.php:439
 msgid "Reviewer"
 msgid_plural "Reviewers"
-msgstr[0] "Recenzent"
-msgstr[1] "Recenzenti"
-msgstr[2] "Recenzenti"
+msgstr[0] ""
+msgstr[1] ""
 
 #: inc/helpers/namespace.php:440
 msgid "Illustrator"
 msgid_plural "Illustrators"
-msgstr[0] "Ilustrator"
-msgstr[1] "Ilustratori"
-msgstr[2] "Ilustratori"
+msgstr[0] ""
+msgstr[1] ""
 
 #: inc/helpers/namespace.php:441
 msgid "Contributor"
 msgid_plural "Contributors"
-msgstr[0] "Suradnik"
-msgstr[1] "Suradnici"
-msgstr[2] "Suradnici"
+msgstr[0] ""
+msgstr[1] ""
 
 #: inc/helpers/namespace.php:442
 #: partials/content-cover-book-header.php:97
 #: partials/content-cover-book-info.php:67
 #: single.php:35
 msgid "License"
-msgstr "Licenca"
+msgstr ""
 
 #: inc/helpers/namespace.php:443
 msgid "Primary Subject"
-msgstr "Osnovni predmet"
+msgstr ""
 
 #: inc/helpers/namespace.php:444
 msgid "Additional Subject(s)"
-msgstr "Dodatni predmet(i)"
+msgstr ""
 
 #: inc/helpers/namespace.php:445
 msgid "Institution"
 msgid_plural "Institutions"
 msgstr[0] ""
 msgstr[1] ""
-msgstr[2] ""
 
 #: inc/helpers/namespace.php:446
 msgid "Publisher"
-msgstr "Izdavač"
+msgstr ""
 
 #: inc/helpers/namespace.php:447
 msgid "Publication Date"
-msgstr "Datum izdavanja"
+msgstr ""
 
 #: inc/helpers/namespace.php:448
 #: single.php:43
@@ -340,7 +333,7 @@ msgstr ""
 
 #: inc/helpers/namespace.php:450
 msgid "Print ISBN"
-msgstr "ISBN tiskano izdanje"
+msgstr ""
 
 #: inc/helpers/namespace.php:451
 msgid "Hashtag"
@@ -352,7 +345,7 @@ msgstr ""
 #: inc/helpers/namespace.php:489
 #, php-format
 msgid "Previous: %s"
-msgstr "Prethodno: %s"
+msgstr ""
 
 #. translators: %s: post title,
 #. translators: %s: post short title or title
@@ -360,61 +353,61 @@ msgstr "Prethodno: %s"
 #: inc/helpers/namespace.php:498
 #, php-format
 msgid "Next: %s"
-msgstr "Slijedeće: %s"
+msgstr ""
 
 #. translators: %s: name of commenter, %1$s: date of comment, %2$s: time of comment
 #: inc/helpers/namespace.php:578
 #, php-format
 msgid "%s on"
-msgstr "%s na"
+msgstr ""
 
 #. translators: %s: name of commenter, %1$s: date of comment, %2$s: time of comment
 #: inc/helpers/namespace.php:578
 #, php-format
 msgid "%1$s at %2$s"
-msgstr "%1$s na %2$s"
+msgstr ""
 
 #. translators: %s: name of commenter, %1$s: date of comment, %2$s: time of comment
 #: inc/helpers/namespace.php:578
 #: inc/helpers/namespace.php:607
 msgid "(Edit)"
-msgstr "(Uredi)"
+msgstr ""
 
 #: inc/helpers/namespace.php:581
 msgid "Your comment is awaiting moderation."
-msgstr "Vaš komentar čeka odobrenje."
+msgstr ""
 
 #: inc/helpers/namespace.php:607
 msgid "Pingback:"
-msgstr "Povratna veza:"
+msgstr ""
 
 #: index.php:18
 msgid "This book does not contain any public content."
-msgstr "Ova knjiga ne sadrži javni sadržaj."
+msgstr ""
 
 #: page-about.php:5
 msgid "About The Book"
-msgstr "O ovoj knjizi"
+msgstr ""
 
 #: page-about.php:21
 #: page-buy.php:10
 #: page-buy.php:18
 msgid "It's coming!"
-msgstr "Dolazi!"
+msgstr ""
 
 #: page-authors.php:31
 msgid "Authors"
-msgstr "Autori"
+msgstr ""
 
 #: page-buy.php:5
 msgid "Buy the Book"
-msgstr "Kupi knjigu"
+msgstr ""
 
 #. translators: %1$s: url to book, %2$s: title of book
 #: page-buy.php:21
 #, php-format
 msgid "You can buy <a href=\"%1$s\">%2$s</a> by following any of the links below:"
-msgstr "Knjigu <a href=\"%1$s\">%2$s</a> možete kupiti slijedeći bilo koju poveznicu u nastavku:"
+msgstr ""
 
 #: page-buy.php:30
 #: page-buy.php:40
@@ -428,7 +421,7 @@ msgstr ""
 #. translators: %1$s: url to purchase
 #: page-buy.php:74
 msgid "Purchase here:"
-msgstr "Kupite ovdje:"
+msgstr ""
 
 #: page-h5p-listing.php:16
 msgid "Invalid H5P activity"
@@ -469,7 +462,7 @@ msgstr ""
 #: page-h5p-listing.php:39
 #: partials/content-cover-metadata.php:8
 msgid "Title"
-msgstr "Naslov"
+msgstr ""
 
 #: page-h5p-listing.php:40
 msgid "Activity type"
@@ -495,51 +488,51 @@ msgstr ""
 #: partials/content-single-legacy.php:69
 #: partials/content-single.php:94
 msgid "Edit"
-msgstr "Uredi"
+msgstr ""
 
 #: page.php:18
 msgid "Pages:"
-msgstr "Broj stranica:"
+msgstr ""
 
 #: partials/content-cover-book-header.php:11
 msgid "Book Title"
-msgstr "Naslov knjige"
+msgstr ""
 
 #: partials/content-cover-book-header.php:14
 msgid "Subtitle"
-msgstr "Podnaslov"
+msgstr ""
 
 #. translators: %s: title of book
 #: partials/content-cover-book-header.php:26
 #: partials/content-cover-book-header.php:32
 #, php-format
 msgid "Cover image for %s"
-msgstr "Korice za %s"
+msgstr ""
 
 #: partials/content-cover-book-header.php:54
 msgid "Download this book"
-msgstr "Preuzmi ovu knjigu"
+msgstr ""
 
 #: partials/content-cover-book-header.php:93
 #: partials/content-cover-book-info.php:6
 msgid "Book Description"
-msgstr "Opis knjige"
+msgstr ""
 
 #: partials/content-cover-book-header.php:105
 msgid "Read Book"
-msgstr "Pročitaj knjigu"
+msgstr ""
 
 #: partials/content-cover-book-header.php:112
 msgid "Buy Book"
-msgstr "Kupi knjigu"
+msgstr ""
 
 #: partials/content-cover-book-info.php:2
 msgid "Book Information"
-msgstr "Informacije o knjizi"
+msgstr ""
 
 #: partials/content-cover-book-info.php:23
 msgid "Book Source"
-msgstr "Izvor knjige"
+msgstr ""
 
 #. translators: %$1s: title of book, link to book, %2$s: attribution string for the book, %3$s: publisher of book, %4$s: license for book
 #: partials/content-cover-book-info.php:30
@@ -553,30 +546,30 @@ msgstr ""
 #: partials/content-cover-book-info.php:35
 #, php-format
 msgid " by %s"
-msgstr "od %s"
+msgstr ""
 
 #. translators: %s: link to source book
 #: partials/content-cover-book-info.php:41
 #, php-format
 msgid "This book was cloned from a source that is no longer available. The source URL was %s. This book may differ from the original."
-msgstr "Ova knjiga je klonirana iz izvora koji više nije dostupan. URL izvornika je glasio %s. Ova knjiga se može razlikovati od originala."
+msgstr ""
 
 #: partials/content-cover-book-info.php:62
 msgid "Contributors"
-msgstr "Suradnici"
+msgstr ""
 
 #: partials/content-cover-book-info.php:72
 msgid "Subject"
-msgstr "Predmet"
+msgstr ""
 
 #: partials/content-cover-book-info.php:87
 #: partials/content-cover-metadata.php:66
 msgid "Click for more information"
-msgstr "Kliknite za više informacija"
+msgstr ""
 
 #: partials/content-cover-metadata.php:3
 msgid "Metadata"
-msgstr "Meta podaci"
+msgstr ""
 
 #: partials/content-cover-toc.php:5
 msgid "Show All Contents"
@@ -590,27 +583,27 @@ msgstr ""
 #: partials/content-difftool.php:52
 #, php-format
 msgid "This chapter is adapted from %1$s in %2$s by %3$s."
-msgstr "Ovo poglavlje je prilagođeno iz %1$s u %2$s od%3$s."
+msgstr ""
 
 #: partials/content-difftool.php:66
 msgid "Note: The comparison below is between this text and the <strong>current version</strong> of the text from which it was adapted."
-msgstr "Napomena: Ova usporedba je između ovog teksta i <strong>trenutne inačice</strong> teksta iz kojeg je nastao."
+msgstr ""
 
 #: partials/content-difftool.php:67
 msgid "additions"
-msgstr "dodaci"
+msgstr ""
 
 #: partials/content-difftool.php:67
 msgid "deletions"
-msgstr "brisanja"
+msgstr ""
 
 #: partials/content-none.php:2
 msgid "Nothing Found"
-msgstr "Ništa nije pronađeno"
+msgstr ""
 
 #: partials/content-none.php:3
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr "Žao nam je, ali ništa ne odgovara vašim pojmovima za pretraživanje. Pokušajte ponovno s nekim drugim ključnim riječima."
+msgstr ""
 
 #: partials/content-none.php:4
 msgid "Ouch this is good."
@@ -623,66 +616,66 @@ msgstr ""
 #: partials/content-single-legacy.php:41
 #: partials/content-single.php:46
 msgid "Previous Page"
-msgstr "Prethodna stranica"
+msgstr ""
 
 #: partials/content-single-legacy.php:52
 #: partials/content-single.php:57
 msgid "Next Page"
-msgstr "Slijedeća stranica"
+msgstr ""
 
 #: private.php:4
 msgid "Access Denied"
-msgstr "Pristup zabranjen"
+msgstr ""
 
 #. translators: link to sign in
 #: private.php:10
 #, php-format
 msgid "This book is private, and accessible only to registered users. If you have an account you can %s."
-msgstr "Ovo je privatna knjiga i dostupna je samo registriranim korisnicima. Ako imate korisnički račun možete se %s."
+msgstr ""
 
 #: private.php:14
 msgid "sign in here"
-msgstr "prijaviti ovdje"
+msgstr ""
 
 #. translators: link to Pressbooks.pub
 #: private.php:23
 #, php-format
 msgid "You can also set up your own Pressbooks book at %s."
-msgstr "Također možete postaviti i vlastitu Pressbooks knjigu na %s."
+msgstr ""
 
 #. translators: search string
 #: search.php:6
 #, php-format
 msgid "Search Results for: %s"
-msgstr "Rezultati pretraživanja za: %s"
+msgstr ""
 
 #: search.php:18
 msgid "Previous page"
-msgstr "Prethodna stranica"
+msgstr ""
 
 #: search.php:19
 msgid "Next page"
-msgstr "Slijedeća stranica"
+msgstr ""
 
 #: search.php:20
 msgid "Paged navigation"
-msgstr "Pomicanje po stranicama"
+msgstr ""
 
 #: searchform.php:3
 msgctxt "label"
 msgid "Search in book:"
-msgstr "Pretraži unutar knjige:"
+msgstr ""
 
 #: searchform.php:4
 msgctxt "placeholder"
 msgid "Search in book &hellip;"
-msgstr "Pronađi u knjizi &hellip;"
+msgstr ""
 
 #: searchform.php:8
 msgid "Search"
-msgstr "Pretraživanje"
+msgstr ""
 
 #: single.php:59
 msgid "Share This Book"
-msgstr "Podijeli ovu knjigu"
+msgstr ""
 
