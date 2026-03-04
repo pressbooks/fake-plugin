@@ -24,7 +24,7 @@ jobs:
   upload-sources:
     name: Upload Sources
     if: github.event_name == 'push'
-    uses: pressbooks/reusable-workflows/.github/workflows/crowdin.yml@crowdin
+    uses: pressbooks/reusable-workflows/.github/workflows/crowdin.yml@main
     with:
       action: upload
       pot_file_path: languages/fake-plugin.pot
@@ -35,7 +35,7 @@ jobs:
   download-translations:
     name: Pull Translations
     if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && github.event.inputs.action == 'Pull Translations')
-    uses: pressbooks/reusable-workflows/.github/workflows/crowdin.yml@crowdin
+    uses: pressbooks/reusable-workflows/.github/workflows/crowdin.yml@main
     with:
       action: download
       pot_file_path: languages/fake-plugin.pot
@@ -47,7 +47,7 @@ jobs:
   seed-translations:
     name: Seed Translations
     if: github.event_name == 'workflow_dispatch' && github.event.inputs.action == 'Seed Translations'
-    uses: pressbooks/reusable-workflows/.github/workflows/crowdin.yml@crowdin
+    uses: pressbooks/reusable-workflows/.github/workflows/crowdin.yml@main
     with:
       action: seed
       pot_file_path: languages/fake-plugin.pot
