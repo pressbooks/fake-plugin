@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2026-03-04T11:53:27+00:00\n"
-"PO-Revision-Date: 2026-03-04 22:28\n"
+"PO-Revision-Date: 2026-03-09 22:31\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: pressbooks-fake-plugin\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
@@ -31,17 +31,17 @@ msgstr "Faux plugin"
 #. Author URI of the plugin
 #: fake-plugin.php
 msgid "https://pressbooks.org"
-msgstr ""
+msgstr "https://pressbooks.org"
 
 #. Description of the plugin
 #: fake-plugin.php
 msgid "Plugin for testing purposes."
-msgstr ""
+msgstr "J'ajoute du nonsense."
 
 #. Author of the plugin
 #: fake-plugin.php
 msgid "Pressbooks (Book Oven Inc.)"
-msgstr ""
+msgstr "Pressbooks (Book Oven Inc.)"
 
 #: fake-plugin.php:36
 #: fake-plugin.php:51
@@ -50,19 +50,19 @@ msgstr ""
 
 #: fake-plugin.php:53
 msgid "This is a test plugin used to verify the Pressbooks translation workflow with Crowdin."
-msgstr ""
+msgstr "Ceci est une extension de test utilisée pour vérifier le flux de travaux de traduction de Pressbooks avec Crowdin."
 
 #: fake-plugin.php:55
 msgid "Translation Status"
-msgstr ""
+msgstr "Statut de la traduction"
 
 #: fake-plugin.php:60
 msgid "Item"
-msgstr ""
+msgstr "Élément"
 
 #: fake-plugin.php:61
 msgid "Status"
-msgstr ""
+msgstr "Statut"
 
 #: fake-plugin.php:66
 msgid "Text domain loaded"
@@ -70,109 +70,109 @@ msgstr "Domaine de texte chargé"
 
 #: fake-plugin.php:67
 msgid "Yes"
-msgstr ""
+msgstr "Oui"
 
 #: fake-plugin.php:70
 msgid "Translation files directory"
-msgstr ""
+msgstr "Répertoire des fichiers de traduction"
 
 #: fake-plugin.php:74
 msgid "Current locale"
-msgstr ""
+msgstr "Langue actuelle"
 
 #: fake-plugin.php:80
 msgid "Sample Translatable Strings"
-msgstr ""
+msgstr "Exemple de chaînes traduisables"
 
 #: fake-plugin.php:83
 msgid "Welcome message:"
-msgstr ""
+msgstr "Message de bienvenue :"
 
 #: fake-plugin.php:84
 msgid "Welcome to the Fake Plugin testing tool."
-msgstr ""
+msgstr "Bienvenue dans l’outil de test de faux plugins."
 
 #: fake-plugin.php:86
 msgid "Instructions:"
-msgstr ""
+msgstr "Instructions :"
 
 #: fake-plugin.php:87
 msgid "Use this page to verify that translations are loaded correctly from Crowdin."
-msgstr ""
+msgstr "Utilisez cette page pour vérifier que les traductions sont correctement chargées depuis Crowdin."
 
 #: fake-plugin.php:89
 msgid "Tip:"
-msgstr ""
+msgstr "Astuce :"
 
 #: fake-plugin.php:90
 msgid "Switch your site language in Settings to see translated strings."
-msgstr ""
+msgstr "Changez la langue de votre site dans les Paramètres pour voir les chaînes traduites."
 
 #: fake-plugin.php:94
 msgid "Actions"
-msgstr ""
+msgstr "Actions"
 
 #: fake-plugin.php:97
 msgid "No actions are available. This page is for translation testing only."
-msgstr ""
+msgstr "Aucune action n'est disponible. Cette page est réservée aux tests de traduction."
 
 #: src/App.php:11
 msgid "Hello, people!"
-msgstr ""
+msgstr "Bonjour, les gens !"
 
 #: src/App.php:16
 msgid "Hello, world 2!"
-msgstr ""
+msgstr "Bonjour, le monde 2 !"
 
 #: src/App.php:21
 msgid "See ya, bye!"
-msgstr ""
+msgstr "A plus, au revoir !"
 
 #: src/App.php:26
 msgid "oh la la, see you"
-msgstr ""
+msgstr "oh la la, à plus"
 
 #: src/App.php:31
 msgid "Salut! garçon"
-msgstr ""
+msgstr "Salut! garçon"
 
 #: src/App.php:43
 msgid "Salut! souris"
-msgstr ""
+msgstr "Salut! souris"
 
 #: src/App.php:48
 msgid "Salut! café"
-msgstr ""
+msgstr "Salut! café"
 
 #: src/App.php:53
 msgid "Hello! bla"
-msgstr ""
+msgstr "Hello! bla"
 
 #: src/App.php:58
 msgid "Hello! duck, nice to see you"
-msgstr ""
+msgstr "Bonjour! Canard, Enchanté de vous voir"
 
 #: src/App.php:63
 msgid "Hello! cow, nice to see you"
-msgstr ""
+msgstr "Bonjour! vache, Enchanté de vous voir"
 
 #: src/App.php:68
 msgid "Hello! cat, nice to see you"
-msgstr ""
+msgstr "Bonjour ! chat, Enchanté de vous voir"
 
 #: src/App.php:73
 msgid "Hello! dog, nice to see you"
-msgstr ""
+msgstr "Bonjour! chien, Enchanté de vous voir"
 
 #: src/App.php:78
 msgid "This will be a new string used by Crowdin, it should be available in Crowdin and then we should translate them in Crowdin, then after that Crowdin will generate a PR with .po files"
-msgstr ""
+msgstr "Ce sera une nouvelle chaîne de caractères utilisée par Crowdin, elle devrait être disponible dans Crowdin et ensuite nous devrions les traduire dans Crowdin, ensuite, Crowdin générera une PR avec les fichiers .po"
 
 #: src/App.php:83
 msgid "Crowdin rules?"
-msgstr ""
+msgstr "Règles Crowdin ?"
 
 #: src/App.php:88
 msgid "Crowdin fails?"
-msgstr ""
+msgstr "Crowdin est en échec ?"
 
