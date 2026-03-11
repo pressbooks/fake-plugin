@@ -9,16 +9,36 @@
     "translation": "/languages/pressbooks-fake-plugin-%locale_with_underscore%.po",
     "languages_mapping": {
       "locale_with_underscore": {
+        "bg": "bg_BG",
+        "ca": "ca",
         "de": "de_DE",
+        "de-CH": "de_CH",
+        "el": "el",
+        "en-AU": "en_AU",
+        "en-CA": "en_CA",
+        "en-GB": "en_GB",
         "es-ES": "es_ES",
+        "es-CR": "es_CR",
         "fr": "fr_FR",
-        "gl": "gl_ES",
-        "nb": "nb_NO",
+        "hr": "hr",
+        "hu": "hu_HU",
         "it": "it_IT",
-        "ka": "ka_GE",
+        "ja": "ja",
+        "kn": "kn",
+        "lt": "lt_LT",
+        "lv": "lv",
+        "nl": "nl_NL",
+        "pl": "pl",
         "ru": "ru_RU",
+        "sv-SE": "sv_SE",
         "ta": "ta_LK",
-        "hr": "hr_HR"
+        "tr": "tr_TR",
+        "uk": "uk",
+        "zh-CN": "zh_CN",
+        "zh-TW": "zh_TW",
+        "nb": "nb_NO",
+        "gl": "gl_ES",
+        "ka": "ka_GE"
       }
     }
   }
