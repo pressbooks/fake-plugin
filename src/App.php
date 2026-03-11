@@ -75,16 +75,14 @@ class App
 
     public function newString(): string
     {
-        return __("This will be a new string used by Crowdin, it should be available in Crowdin and then we should translate them in Crowdin, then after that Crowdin will generate a PR with .po files", "pressbooks-fake-plugin");
+        return __(
+            "This will be a new string used by Crowdin, it should be available in Crowdin and then we should translate them in Crowdin, then after that Crowdin will generate a PR with .po files",
+            "pressbooks-fake-plugin",
+        );
     }
 
     public function crow(): string
     {
         return __("Crowdin rules?", "pressbooks-fake-plugin");
-    }
-
-    public function crow(): string
-    {
-        return __("Crowdin fails?", "pressbooks-fake-plugin");
     }
 }
