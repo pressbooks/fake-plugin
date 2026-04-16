@@ -1,6 +1,6 @@
 <?php
 
-// Test 8 I modified the file but no translations changes
+// Trigger notifications and artifacts creation
 
 namespace Pressbooks\FakePlugin;
 
