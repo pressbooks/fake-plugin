@@ -1,5 +1,51 @@
 # Changelog
 
+## [1.10.0](https://github.com/pressbooks/fake-plugin/compare/1.9.15...1.10.0) (2026-04-16)
+
+
+### Features
+
+* add strings for crowdin ([3722a97](https://github.com/pressbooks/fake-plugin/commit/3722a9720d86e819070f9ae79445e04553ffc776))
+* change strings for weblate ([c67aa95](https://github.com/pressbooks/fake-plugin/commit/c67aa95c7d5a72f556411325773cb01dd8b19fd5))
+* more poeditor tests ([413cd0b](https://github.com/pressbooks/fake-plugin/commit/413cd0b3aa6f61923dc2209d3777033a22025c33))
+* new translations ([#125](https://github.com/pressbooks/fake-plugin/issues/125)) ([375e4b7](https://github.com/pressbooks/fake-plugin/commit/375e4b706459a7763aa3d22e86c6676b79798c0a))
+* remove po generation worflow and tx files ([#137](https://github.com/pressbooks/fake-plugin/issues/137)) ([167b022](https://github.com/pressbooks/fake-plugin/commit/167b02270024d6bea9590b8810bf08f4319f5fc0))
+* switch to reusable Crowdin workflow with seed support ([f09ecca](https://github.com/pressbooks/fake-plugin/commit/f09ecca2259d65a4f4a1d91ee3978530542bcd40))
+* test crowdin ([533e0bf](https://github.com/pressbooks/fake-plugin/commit/533e0bfa6460bc11ef5f24f14c195e40affa2bea))
+* test poeditor ([5eafd96](https://github.com/pressbooks/fake-plugin/commit/5eafd96643606f38237db16ce4087f27f43412a8))
+
+
+### Bug Fixes
+
+* edit and add text for crowdin ([#147](https://github.com/pressbooks/fake-plugin/issues/147)) ([6a77400](https://github.com/pressbooks/fake-plugin/commit/6a77400998122b2b8a68533d84e954468432943a))
+* let's see ([#123](https://github.com/pressbooks/fake-plugin/issues/123)) ([fa04035](https://github.com/pressbooks/fake-plugin/commit/fa040359029575ad1f8f7c006995d99edfe49b44))
+* notifications and artifacts ([784e9ef](https://github.com/pressbooks/fake-plugin/commit/784e9ef00779709d7b1cada42e5670a53b6da02d))
+* prefix translation filenames with text domain ([74c3062](https://github.com/pressbooks/fake-plugin/commit/74c3062e027878d0fbde47876d1c0baec6813e6d))
+
+
+### Chores
+
+* fix lint ([8991cc2](https://github.com/pressbooks/fake-plugin/commit/8991cc2b1609a400f6f82cc9fa369156d0022a7f))
+* **i18n:** add initial PO/MO files for all mapped locales ([d0d20d3](https://github.com/pressbooks/fake-plugin/commit/d0d20d39cc5333c3ec61a1139ac2ea87f092e91b))
+* **i18n:** regenerate POT and remove stale translations ([a7afed6](https://github.com/pressbooks/fake-plugin/commit/a7afed68d62c5a84b59c3660ea65e68f8178aab5))
+* **i18n:** update languages for project fake-plugin ([#131](https://github.com/pressbooks/fake-plugin/issues/131)) ([271726d](https://github.com/pressbooks/fake-plugin/commit/271726d1c18998dfdca58ce5901aa26be4ebfd5e))
+* **i18n:** update languages for project fake-plugin ([#135](https://github.com/pressbooks/fake-plugin/issues/135)) ([56dabfb](https://github.com/pressbooks/fake-plugin/commit/56dabfb37c0ed21e8e8ab7978d8e6a1e760b9ad2))
+* **i18n:** update POT file for translations ([#139](https://github.com/pressbooks/fake-plugin/issues/139)) ([1b46b93](https://github.com/pressbooks/fake-plugin/commit/1b46b93dc069ada28357e530ae92b16433352fa0))
+* **i18n:** update POT file for translations ([#140](https://github.com/pressbooks/fake-plugin/issues/140)) ([937482f](https://github.com/pressbooks/fake-plugin/commit/937482fd3988284774802e078ee80e6dfc9ec482))
+* **i18n:** update POT file for translations ([#142](https://github.com/pressbooks/fake-plugin/issues/142)) ([98b212f](https://github.com/pressbooks/fake-plugin/commit/98b212ff902c851536b44d20bd14ef74b3780e08))
+* **i18n:** update POT file for translations ([#144](https://github.com/pressbooks/fake-plugin/issues/144)) ([cf27bff](https://github.com/pressbooks/fake-plugin/commit/cf27bffb2a06ec007a0888d04434cdb947fac19f))
+* **i18n:** update POT file for translations ([#148](https://github.com/pressbooks/fake-plugin/issues/148)) ([3db2e48](https://github.com/pressbooks/fake-plugin/commit/3db2e487f56c67214aa4ae6bbba1620d78429fd3))
+* **i18n:** update POT file for translations ([#149](https://github.com/pressbooks/fake-plugin/issues/149)) ([573f28f](https://github.com/pressbooks/fake-plugin/commit/573f28fe1639dfd7984dbebab89b8081c31de6f0))
+* **i18n:** update POT file for translations ([#152](https://github.com/pressbooks/fake-plugin/issues/152)) ([43b5d22](https://github.com/pressbooks/fake-plugin/commit/43b5d22adfeabf7966b12868e9b1e199c4870399))
+* **i18n:** update POT file for translations ([#157](https://github.com/pressbooks/fake-plugin/issues/157)) ([fb85fde](https://github.com/pressbooks/fake-plugin/commit/fb85fde89e08c78b534fc4cb9ac5f30543e181ac))
+* **i18n:** update POT file for translations ([#161](https://github.com/pressbooks/fake-plugin/issues/161)) ([aa1dbe3](https://github.com/pressbooks/fake-plugin/commit/aa1dbe38d8c590bf04ac64042a908b1e48ae2ac7))
+* **l10n:** Translations updates ([#160](https://github.com/pressbooks/fake-plugin/issues/160)) ([3a8ebfe](https://github.com/pressbooks/fake-plugin/commit/3a8ebfe3a813ed5dbc91156f551e2286756a3d07))
+* **l10n:** update languages ([#164](https://github.com/pressbooks/fake-plugin/issues/164)) ([816d4bf](https://github.com/pressbooks/fake-plugin/commit/816d4bfd32e14ab4025f1b8edbe29a9895dc79be))
+* **l10n:** update languages ([#165](https://github.com/pressbooks/fake-plugin/issues/165)) ([99e74e3](https://github.com/pressbooks/fake-plugin/commit/99e74e311bd83f431686c00030ea90da850eb601))
+* **l10n:** update languages ([#166](https://github.com/pressbooks/fake-plugin/issues/166)) ([10eb117](https://github.com/pressbooks/fake-plugin/commit/10eb1173a8cd3e754f2977e8ed3d0905bf32fd6f))
+* **l10n:** Updates for project Fake Plugin ([cbc08e1](https://github.com/pressbooks/fake-plugin/commit/cbc08e12949f9ffe34295de82c12c73858193d0e))
+* **l10n:** Updates for project Fake Plugin ([344fa15](https://github.com/pressbooks/fake-plugin/commit/344fa15716a3f34118a40c5562909a384515bc4f))
+
 ## [1.9.15](https://github.com/pressbooks/fake-plugin/compare/1.9.14...1.9.15) (2025-02-11)
 
 
