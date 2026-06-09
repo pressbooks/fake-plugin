@@ -1,1 +1,0 @@
-{"version":3,"file":"app-hmkgPEPA.js","sources":["../../../resources/assets/js/app.js"],"sourcesContent":["import '../css/app.css';\n\ndocument.addEventListener('DOMContentLoaded', function () {\n\tconsole.log('Build process.');\n});\n"],"names":[],"mappings":"AAEA,SAAS,iBAAiB,mBAAoB,UAAY,CACzD,QAAQ,IAAI,gBAAgB,CAC7B,CAAC"}
