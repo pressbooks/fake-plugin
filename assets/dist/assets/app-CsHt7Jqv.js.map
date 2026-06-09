@@ -1,0 +1,1 @@
+{"version":3,"file":"app-CsHt7Jqv.js","sources":["../../../resources/assets/js/app.js"],"sourcesContent":["import '../css/app.css';\n\ndocument.addEventListener('DOMContentLoaded', function () {\n\tconsole.log('Build process retrigger 🙄.');\n});\n"],"names":[],"mappings":"AAEA,SAAS,iBAAiB,mBAAoB,UAAY,CACzD,QAAQ,IAAI,6BAA6B,CAC1C,CAAC"}
