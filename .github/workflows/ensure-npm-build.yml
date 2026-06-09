@@ -9,3 +9,5 @@ on:
 jobs:
   update-npm-build:
     uses: pressbooks/reusable-workflows/.github/workflows/npm-build.yml@test-build
+    secrets:
+      PAT_FOR_GITHUB_ACTIONS: ${{ secrets.PAT_FOR_GITHUB_ACTIONS }}
