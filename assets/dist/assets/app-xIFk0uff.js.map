@@ -1,0 +1,1 @@
+{"version":3,"file":"app-xIFk0uff.js","sources":["../../../resources/assets/js/app.js"],"sourcesContent":["import '../css/app.css';\n\ndocument.addEventListener('DOMContentLoaded', function () {\n\tconsole.log('Fake plugin loaded to build ok bill.');\n});\n"],"names":[],"mappings":"AAEA,SAAS,iBAAiB,mBAAoB,UAAY,CACzD,QAAQ,IAAI,sCAAsC,CACnD,CAAC"}

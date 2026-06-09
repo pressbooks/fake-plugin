@@ -1,1 +1,0 @@
-{"version":3,"file":"app-BJepqIuH.js","sources":["../../../resources/assets/js/app.js"],"sourcesContent":["import '../css/app.css';\n\ndocument.addEventListener('DOMContentLoaded', function () {\n\tconsole.log('Fake plugin loaded to build ok.');\n});\n"],"names":[],"mappings":"AAEA,SAAS,iBAAiB,mBAAoB,UAAY,CACzD,QAAQ,IAAI,iCAAiC,CAC9C,CAAC"}
