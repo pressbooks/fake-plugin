@@ -34,7 +34,7 @@ class App
     public function getVersion()
     {
         // x-release-please-start-version
-        return "1.10.0";
+        return "1.11.0";
         // x-release-please-end
     }
 

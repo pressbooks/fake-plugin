@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.11.0](https://github.com/pressbooks/fake-plugin/compare/1.10.0...1.11.0) (2026-06-09)
+
+
+### Features
+
+* build process ([#170](https://github.com/pressbooks/fake-plugin/issues/170)) ([7e7f901](https://github.com/pressbooks/fake-plugin/commit/7e7f901ca0d531a8835f60261e775eceecb72430))
+
+
+### Chores
+
+* this should trigger npm run build ([#172](https://github.com/pressbooks/fake-plugin/issues/172)) ([b3f28c4](https://github.com/pressbooks/fake-plugin/commit/b3f28c4976e79eeb546265cf81e4c09c63ba6a53))
+
 ## [1.10.0](https://github.com/pressbooks/fake-plugin/compare/1.9.15...1.10.0) (2026-04-16)
 
 
